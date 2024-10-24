@@ -4,45 +4,61 @@
   class="w-full h-screen flex flex-col justify-start items-center gap-5 pt-[10rem] lg:pt-0 lg:justify-center"
 >
   <h2>Login</h2>
-  <form class="flex flex-col border p-5">
+  <form
+    #myLogin="ngForm"
+    (ngSubmit)="submitLogin(myLogin)"
+    class="flex flex-col border p-5"
+  >
     <mat-form-field>
-      <mat-label>NickName</mat-label>
+      <mat-label>eMail</mat-label>
       <input
+        type="text"
         matInput
-        placeholder="Inserisci il tuo nome"
+        placeholder="Inserisci la tua mail"
         class="placeholder:text-[0.8rem]"
-        [(ngModel)]="loginData.email"
+        name="email"
+        ngModel
       />
     </mat-form-field>
     <mat-form-field class="mb-0">
       <mat-label>Password</mat-label>
       <input
+        type="password"
         matInput
         placeholder="Inserisci la tua password"
         class="placeholder:text-[0.8rem]"
-        [(ngModel)]="loginData.password"
+        name="password"
+        ngModel
+        (input)="seriously()"
       />
     </mat-form-field>
   </form>
 </section>
 
 <div
+  *ngIf="carloToggle"
   class="absolute top-0 text-[5rem] z-30 crazy flex justify-center items-center text-white p-5"
 >
-  password
+  {{ form.form.value.password }}
 </div>
 <div
+  *ngIf="carloToggle"
   class="absolute top-[10rem] left-[10rem] text-[5rem] z-30 crazy flex justify-center items-center opacity-0 lg:opacity-100 text-white p-5"
 >
-  password
+  <p class="text-black">Password:</p>
+  {{ form.form.value.password }}
 </div>
 <div
+  *ngIf="carloToggle"
   class="absolute top-[10rem] right-[10rem] text-[5rem] z-30 crazy flex justify-center items-center opacity-0 lg:opacity-100 text-white p-5"
 >
-  password
+  <p class="text-black">Password:</p>
+  {{ form.form.value.password }}
 </div>
 <div
+  *ngIf="carloToggle"
   class="absolute bottom-0 text-[5rem] z-30 crazy flex justify-center items-center text-white p-5"
 >
-  password
+  <p class="text-black">Password:</p>
+  {{ form.form.value.password }}
 </div>

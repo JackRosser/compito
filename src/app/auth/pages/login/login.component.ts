@@ -1,5 +1,8 @@
-import { Component } from '@angular/core';
-import { ILogin } from '../../../models/i-login';
+import { Component, ViewChild } from '@angular/core';
+import { iLogin } from '../../../models/i-login';
+import { NgFor } from '@angular/common';
+import { NgForm } from '@angular/forms';
+import { CarlocontiService } from '../../../services/carloconti.service';
 
 @Component({
   selector: 'app-login',
@@ -8,6 +11,37 @@ import { ILogin } from '../../../models/i-login';
 })
 export class LoginComponent {
 
-loginData!:ILogin
+constructor(private carloSvc:CarlocontiService) {}
+
+
+@ViewChild('myLogin') form!:NgForm
+
+loginData:iLogin = {
+  email: '',
+  password: ''
+}
+
+ngAfterViewInit():void {
+  this.form.form.valueChanges.subscribe()
+  this.form.form.statusChanges.subscribe()
+}
+
+submitLogin(myLogin:NgForm) {
+
+}
+
+carloToggle:boolean = false
+
+seriously() {
+  if(this.form.form.value.password != "") {
+    this.carloToggle = true
+  } else {
+    this.carloToggle = false
+  }
+
+  this.carloSvc.trollOn(this.carloToggle)
+
+}
+
 
 }

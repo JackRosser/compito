@@ -8,13 +8,13 @@ export class CarlocontiService {
 
   constructor() { }
 
-trollFace$ = new BehaviorSubject<boolean>(false)
+private trollFaceBh = new BehaviorSubject<boolean>(false)
+  trollFace$ = this.trollFaceBh.asObservable()
 
-trollOn():void {
-  this.trollFace$.subscribe(bool => {
-    this.trollFace$.next(bool)
-  })
+trollOn(value:boolean):void {
+  this.trollFaceBh.next(value)
+  }
 }
 
 
-}
+
