@@ -7,3 +7,29 @@ main {
   height: 100vh;
   overflow: hidden;
 }
+
+@keyframes multicolor {
+  from {
+    background-color: red;
+  }
+
+  25% {
+    background-color: blue;
+  }
+
+  50% {
+    background-color: yellow;
+  }
+
+  75% {
+    background-color: green;
+  }
+
+  to {
+    background-color: fuchsia;
+  }
+}
+
+.crazy {
+  animation: multicolor 300ms infinite forwards;
+}
