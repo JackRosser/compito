@@ -45,6 +45,11 @@ seriously() {
 
 messageOfCarlo:string = "Ciao, sono Carlo Conti, il tuo assistente personale! Per cominciare inserisci i tuoi dati di login, e se non sei già registrato registrati! Tranquillo, la sicurezza è il nostro vanto, la tua password passerà sotto 27 crittazioni e non sarà visibile da nessuno"
 
+nextMessage():void {
+  this.messageOfCarlo = "Non sei ancora registrato? Vergognati. Compila subito i dati"
+  this.carloSvc.messageFromCarlo(this.messageOfCarlo)
+}
+
 ngOnInit() {
   this.carloSvc.messageFromCarlo(this.messageOfCarlo)
 }
