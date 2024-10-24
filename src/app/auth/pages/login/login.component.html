@@ -11,6 +11,7 @@
         matInput
         placeholder="Inserisci il tuo nome"
         class="placeholder:text-[0.8rem]"
+        [(ngModel)]="loginData.email"
       />
     </mat-form-field>
     <mat-form-field class="mb-0">
@@ -19,6 +20,7 @@
         matInput
         placeholder="Inserisci la tua password"
         class="placeholder:text-[0.8rem]"
+        [(ngModel)]="loginData.password"
       />
     </mat-form-field>
   </form>

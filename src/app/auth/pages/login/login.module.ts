@@ -21,7 +21,7 @@ import { SharedModule } from '../../../shared/shared.module';
     MatFormFieldModule,
     MatInputModule,
     MatSelectModule,
-    ReactiveFormsModule,
+    FormsModule,
     SharedModule
   ]
 })
