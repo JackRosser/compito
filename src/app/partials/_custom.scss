@@ -33,3 +33,16 @@ main {
 .crazy {
   animation: multicolor 300ms infinite forwards;
 }
+
+@keyframes tiptap {
+  from {
+    transform: translateY(-2rem);
+  }
+  to {
+    transform: translateY(1rem);
+  }
+}
+
+.carlotiptap {
+  animation: tiptap 300ms infinite forwards;
+}

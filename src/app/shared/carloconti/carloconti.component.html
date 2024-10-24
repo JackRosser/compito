@@ -1,4 +1,4 @@
-<div class="absolute w-full h-full">
+<div class="absolute w-full h-full overflow-hidden">
   <div class="relative w-full h-full">
     <img
       *ngIf="!trollToggle"
@@ -16,6 +16,12 @@
       src="/carloconti/troll.png"
       alt="carlo"
       class="absolute bottom-0 max-h-[500px]"
+    />
+    <img
+      *ngIf="trollToggle"
+      src="/carloconti/troll.png"
+      alt="carlo"
+      class="absolute -right-[30rem] w-[2000px] h-auto carlotiptap hidden lg:block"
     />
     <div
       *ngIf="!trollToggle"
