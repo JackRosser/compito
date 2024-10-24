@@ -3,12 +3,16 @@ import { CommonModule } from '@angular/common';
 import { LoginRoutingModule } from './login-routing.module';
 import { LoginComponent } from './login.component';
 
-import {ChangeDetectionStrategy, Component} from '@angular/core';
+// import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {MatSelectModule} from '@angular/material/select';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SharedModule } from '../../../shared/shared.module';
+import {Component} from '@angular/core';
+import {MatIconModule} from '@angular/material/icon';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatButtonModule} from '@angular/material/button';
 
 
 @NgModule({
@@ -22,7 +26,10 @@ import { SharedModule } from '../../../shared/shared.module';
     MatInputModule,
     MatSelectModule,
     FormsModule,
-    SharedModule
+    SharedModule,
+    MatButtonModule,
+    MatDividerModule,
+    MatIconModule
   ]
 })
 export class LoginModule { }

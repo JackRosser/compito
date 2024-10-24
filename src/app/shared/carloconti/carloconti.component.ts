@@ -12,9 +12,16 @@ export class CarlocontiComponent implements OnInit {
 
   constructor(private carloSvc: CarlocontiService) {}
 
+whatCarloSay!:string
+
+
   ngOnInit(): void {
     this.carloSvc.trollFace$.subscribe(value => {
       this.trollToggle = value;
     });
+this.carloSvc.carloMsg$.subscribe(message => {
+  this.whatCarloSay = message
+})
+
   }
 }
