@@ -4,6 +4,7 @@ import { iUser } from '../../models/i-user';
 import { iMovie } from '../../models/i-movie';
 import { iAccess } from '../../models/i-access';
 import { UserService } from '../../services/user.service';
+import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-navbar',
@@ -12,7 +13,7 @@ import { UserService } from '../../services/user.service';
 })
 export class NavbarComponent {
 
-  constructor(private carloSvc: CarlocontiService, private userSvc: UserService) {}
+  constructor(private carloSvc: CarlocontiService, private userSvc: UserService, private authSvc:AuthService) {}
 
   userId!: number;
   favorite!: iMovie[];
@@ -25,6 +26,14 @@ export class NavbarComponent {
   capitalize(word: string): string {
     return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
   }
+
+  carloMessage!:string
+
+logout() {
+  this.authSvc.logout()
+  this.carloMessage = "E così hai provato il logout. Funziona eh? E' stato difficile farlo, apprezzalo!"
+  this.carloSvc.messageFromCarlo(this.carloMessage)
+}
 
   ngOnInit() {
 
