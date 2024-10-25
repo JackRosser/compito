@@ -23,7 +23,7 @@ loginData:iUser = {
   nome: '',
   secondonome: '',
   cognome: '',
-  cessazione: false,
+  voto: false,
   hobby: '',
   pizza: ''
 }

@@ -5,7 +5,7 @@ export interface iUser {
   nome:string,
   secondonome:string,
   cognome:string,
-  cessazione:boolean,
+  voto:boolean,
   hobby:string,
   pizza:string,
 

@@ -1,9 +1,9 @@
 <app-carloconti></app-carloconti>
 <section
-  class="w-full h-screen flex flex-col justify-start items-center gap-5 pt-[10rem] lg:pt-0 lg:justify-center"
+  class="w-full h-screen flex flex-col justify-start items-end pe-[15rem] gap-5 pt-[10rem] lg:pt-0 lg:justify-center"
 >
   <h2>Login</h2>
-  <form #myLogin="ngForm" class="flex flex-col border p-5">
+  <form class="flex flex-col border p-5">
     <mat-form-field>
       <mat-label>eMail</mat-label>
       <input
@@ -12,7 +12,7 @@
         placeholder="Inserisci la tua mail"
         class="placeholder:text-[0.8rem]"
         name="email"
-        ngModel
+        [(ngModel)]="form.email"
       />
     </mat-form-field>
     <mat-form-field class="mb-0">
@@ -23,13 +23,72 @@
         placeholder="Inserisci la tua password"
         class="placeholder:text-[0.8rem]"
         name="password"
-        ngModel
+        [(ngModel)]="form.password"
       />
     </mat-form-field>
+    <mat-form-field>
+      <mat-label>Nome</mat-label>
+      <input
+        type="text"
+        matInput
+        placeholder="Inserisci il tuo nome"
+        class="placeholder:text-[0.8rem]"
+        name="nome"
+        [(ngModel)]="form.nome"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Secondo Nome</mat-label>
+      <input
+        type="text"
+        matInput
+        placeholder="Inserisci il tuo secondo nome"
+        class="placeholder:text-[0.8rem]"
+        name="secondonome"
+        [(ngModel)]="form.secondonome"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Cognome</mat-label>
+      <input
+        type="text"
+        matInput
+        placeholder="Inserisci, guardacaso, il tuo cognome"
+        class="placeholder:text-[0.6rem]"
+        name="cognome"
+        [(ngModel)]="form.cognome"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Mi metterai 10?</mat-label>
+      <mat-select [(ngModel)]="form.voto" name="voto">
+        <mat-option value="si">Si</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Hobby</mat-label>
+      <mat-select [(ngModel)]="form.hobby" name="hobby">
+        <mat-option value="A nessuno importa">A nessuno importa</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Pizza preferita</mat-label>
+      <mat-select [(ngModel)]="form.pizza" name="pizza">
+        <mat-option value="Ananas e noci">Ananas e noci</mat-option>
+        <mat-option value="Pomodoro e mozzarella senza pomodoro"
+          >Pomodoro e mozzarella senza pomodoro</mat-option
+        >
+        <mat-option *ngIf="diavola" value="ehno" (mouseover)="diavolaHidden()"
+          >Diavola</mat-option
+        >
+        <mat-option value="Odio la pizza">Odio la pizza</mat-option>
+        <mat-option value="Prosciutto Funghi Fragole"
+          >Prosciutto Funghi Fragole</mat-option
+        >
+      </mat-select>
+    </mat-form-field>
     <div class="flex flex-col gap-5">
-      <button mat-raised-button>
-        <a routerLink="/home">Register</a>
-      </button>
+      <button mat-raised-button (click)="registah()">Register</button>
     </div>
   </form>
 </section>
