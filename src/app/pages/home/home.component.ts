@@ -38,11 +38,57 @@ export class HomeComponent implements OnInit {
     });
   }
 
+message(movie:iMovie) {
+if(movie.genere === "Drama") {
+  this.messageOfCarlo = "Un Drama eh? Che persona noiosa"
+}
+if(movie.genere === "Action") {
+  this.messageOfCarlo = "Se ti piace così tanto l'azione allora vai in guerra"
+}
+if(movie.genere === "Action") {
+  this.messageOfCarlo = "Se ti piace così tanto l'azione allora vai in guerra"
+}
+if(movie.genere === "Sci-Fi") {
+  this.messageOfCarlo = "Il genere Sci-Fi mi fa schifo"
+}
+if(movie.genere === "Fantasy") {
+  this.messageOfCarlo = "Non sei stufo di tutti questi maghi e magie? Torna con i piedi per terra!"
+}
+if(movie.genere === "Thriller") {
+  this.messageOfCarlo = "Non fa così paura come si dice"
+}
+if(movie.genere === "Western") {
+  this.messageOfCarlo = "I western non vanno più di moda"
+}
+if(movie.genere === "Crime") {
+  this.messageOfCarlo = "Ho avvisato la polizia che ti piace questo genere di film"
+}
+if(movie.genere === "War") {
+  this.messageOfCarlo = "Adoro l'odore del napalm al mattino"
+}
+if(movie.genere === "Mystery") {
+  this.messageOfCarlo = "Film banale come la tua giornata"
+}
+if(movie.genere === "Biography") {
+  this.messageOfCarlo = "Ti piacerebbe eh?"
+}
+if(movie.genere === "Horror") {
+  this.messageOfCarlo = "Non fanno più gli horror di una volta"
+}
+if(movie.genere === "History") {
+  this.messageOfCarlo = "Ma vatti a guardare un documentario"
+}
+
+this.carloSvc.messageFromCarlo(this.messageOfCarlo)
+
+}
+
+
   addMovie(movie: iMovie) {
     if (this.user) {
       this.userSvc.insertFavorite(movie, this.user);
-    } else {
     }
+    this.message(movie)
   }
 
 

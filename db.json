@@ -1,8 +1,8 @@
 {
   "users": [
- {
+    {
       "email": "admin@admin.com",
-      "password": "$2a$10$ibMwAHdyZMcoqcsGVhBBrudFbj3SG2KB84FVvajfMX.sXIfXaMvea",
+      "password": "$2a$10$y8M4fKbfS9rNNnwqYuJdx.2EN808b0HZ9xgew9KmaKqx8Zem7r0Wu",
       "nome": "admin",
       "secondonome": "admin2",
       "cognome": "admincognome",
@@ -26,6 +26,38 @@
           "year": 1991,
           "plot": "A young FBI agent seeks the help of a manipulative cannibal killer to catch another serial killer.",
           "genere": "Thriller"
+        },
+        {
+          "id": 4,
+          "title": "Inception",
+          "img": "https://m.media-amazon.com/images/I/912AErFSBHL._AC_UF1000,1000_QL80_.jpg",
+          "year": 2010,
+          "plot": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+          "genere": "Sci-Fi"
+        },
+        {
+          "id": 3,
+          "title": "Forrest Gump",
+          "img": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
+          "year": 1994,
+          "plot": "The presidencies of Kennedy and Johnson, the Vietnam War, and more, seen through the eyes of an Alabama man with a low IQ.",
+          "genere": "Drama"
+        },
+        {
+          "id": 15,
+          "title": "The Green Mile",
+          "img": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_FMjpg_UX1000_.jpg",
+          "year": 1999,
+          "plot": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, who has a mysterious gift.",
+          "genere": "Drama"
+        },
+        {
+          "id": 23,
+          "title": "The Prestige",
+          "img": "https://upload.wikimedia.org/wikipedia/en/d/d2/Prestige_poster.jpg",
+          "year": 2006,
+          "plot": "Two stage magicians engage in competitive one-upmanship in an attempt to create the ultimate stage illusion.",
+          "genere": "Mystery"
         }
       ]
     }
