@@ -14,6 +14,29 @@ export class CarlocontiComponent implements OnInit {
 
 whatCarloSay!:string
 
+carloButtonSpost: string = "bottom: 10px; left: 10px;";
+
+get carloButton(): string {
+  return `position: absolute; z-index:60; ${this.carloButtonSpost}`;
+}
+
+spost(): void {
+  switch (this.carloButtonSpost) {
+    case "bottom: 10px; left: 10px;":
+      this.carloButtonSpost = "bottom: 200px; left: 10px;";
+      break;
+    case "bottom: 200px; left: 10px;":
+      this.carloButtonSpost = "bottom: 200px; left: 200px;";
+      break;
+    case "bottom: 200px; left: 200px;":
+      this.carloButtonSpost = "bottom: 10px; left: 200px;";
+      break;
+    case "bottom: 10px; left: 200px;":
+      this.carloButtonSpost = "bottom: 10px; left: 10px;";
+      break;
+  }
+}
+
 
   ngOnInit(): void {
     this.carloSvc.trollFace$.subscribe(value => {

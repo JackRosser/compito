@@ -1,5 +1,8 @@
 <div class="absolute w-full h-full overflow-hidden">
   <div class="relative w-full h-full">
+    <button mat-raised-button [style]="carloButton" (mouseover)="spost()">
+      <a routerLink="/register">Cambia Assistente</a>
+    </button>
     <img
       *ngIf="!trollToggle"
       src="/carloconti/standard.png"
