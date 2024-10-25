@@ -1,31 +1,26 @@
 {
   "users": [
     {
-      "email": "user@user.com",
-      "password": "$2a$10$3dnhoG78T0RoNIaeyMrwAesLSsQPF2boRDypE1HRqj9bVLnjfCruS",
-      "id": 1
-    },
-    {
-      "email": "rossegiac@gmail.com",
+      "email": "mail@mail.com",
       "password": "$2a$10$37W1JmUJBUZjxvkP7.deAeF4CmUB2p6BfsmxX2.m.VJVnSv.WGvga",
-      "nome": "Giacomo Rossettini",
-      "secondonome": "Giacomo",
-      "cognome": "Rossettini",
-      "voto": "one",
-      "hobby": "one",
-      "pizza": "five",
-      "id": 2
+      "nome": "Jack",
+      "secondonome": "Ross",
+      "cognome": "Vattelapesca",
+      "voto": "10",
+      "hobby": "a nessuno importa",
+      "pizza": "qualunque",
+      "id": 0
     },
     {
-      "email": "mail@gmail.com",
-      "password": "$2a$10$i1TbuYBf/fcNP/pfu3O6IuRhiKxNWIZyZP5TjsF3RHjDgarOfwgNS",
-      "nome": "Giacomo Rossettini",
-      "secondonome": "Giacomo",
-      "cognome": "Rossettini",
+      "email": "admin@admin.com",
+      "password": "$2a$10$nlUFvveN8IWYFiqcOFDMV.ujdGDuNmfbwdhwYtYRfX8FcCSz.O9sO",
+      "nome": "admin",
+      "secondonome": "admin2",
+      "cognome": "admincognome",
       "voto": "si",
       "hobby": "A nessuno importa",
       "pizza": "Prosciutto Funghi Fragole",
-      "id": 3
+      "id": 1
     }
   ],
   "movies-popular": [],

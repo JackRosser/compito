@@ -3,6 +3,8 @@ import { iUser } from '../../../models/i-user';
 import { NgFor } from '@angular/common';
 import { NgForm } from '@angular/forms';
 import { CarlocontiService } from '../../../services/carloconti.service';
+import { AuthService } from '../../../services/auth.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -11,7 +13,7 @@ import { CarlocontiService } from '../../../services/carloconti.service';
 })
 export class LoginComponent {
 
-constructor(private carloSvc:CarlocontiService) {}
+constructor(private carloSvc:CarlocontiService, private authSvc:AuthService, private redirect:Router) {}
 
 
 @ViewChild('myLogin') form!:NgForm
@@ -33,9 +35,12 @@ ngAfterViewInit():void {
   this.form.form.statusChanges.subscribe()
 }
 
-submitLogin(myLogin:NgForm) {
-
+submitLogin() {
+  this.authSvc.login(this.form.value).subscribe(data => {
+    this.redirect.navigate(['/home']);
+  });
 }
+
 
 carloToggle:boolean = false
 

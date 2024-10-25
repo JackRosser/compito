@@ -25,7 +25,7 @@ diavolaHidden():void {
 registah() {
 this.authSvc.register(this.form).subscribe(() => {
 
-  this.redirect.navigate(['/home'])
+  this.redirect.navigate(['/login'])
 })
 }
 
