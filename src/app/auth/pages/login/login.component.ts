@@ -27,7 +27,8 @@ loginData:iUser = {
   cognome: '',
   voto: false,
   hobby: '',
-  pizza: ''
+  pizza: '',
+  favorites: []
 }
 
 ngAfterViewInit():void {

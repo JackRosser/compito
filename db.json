@@ -25,706 +25,250 @@
   ],
   "movies-popular": [],
   "favorites": [],
-  "movies": [
-    {
-      "id": 1,
-      "title": "The Shawshank Redemption",
-      "img": "https://m.media-amazon.com/images/I/51NiGlapXlL._AC_.jpg",
-      "year": 1994,
-      "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
-    },
-    {
-      "id": 2,
-      "title": "The Godfather",
-      "img": "https://m.media-amazon.com/images/I/41--Ksv1iYL._AC_.jpg",
-      "year": 1972,
-      "plot": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
-    },
-    {
-      "id": 3,
-      "title": "The Dark Knight",
-      "img": "https://m.media-amazon.com/images/I/51K8ouYrHeL._AC_.jpg",
-      "year": 2008,
-      "plot": "When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham."
-    },
-    {
-      "id": 4,
-      "title": "Pulp Fiction",
-      "img": "https://m.media-amazon.com/images/I/61cICVJ67uL._AC_SY679_.jpg",
-      "year": 1994,
-      "plot": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
-    },
-    {
-      "id": 5,
-      "title": "Forrest Gump",
-      "img": "https://m.media-amazon.com/images/I/51YPzx0FEYL._AC_.jpg",
-      "year": 1994,
-      "plot": "The presidencies of Kennedy and Johnson, Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75."
-    },
-    {
-      "id": 6,
-      "title": "Inception",
-      "img": "https://m.media-amazon.com/images/I/51EeHT8qlwL._AC_.jpg",
-      "year": 2010,
-      "plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O."
-    },
-    {
-      "id": 7,
-      "title": "Fight Club",
-      "img": "https://m.media-amazon.com/images/I/51v5ZpFyaFL._AC_SY679_.jpg",
-      "year": 1999,
-      "plot": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more."
-    },
-    {
-      "id": 8,
-      "title": "The Matrix",
-      "img": "https://m.media-amazon.com/images/I/51EG732BV3L._AC_SY679_.jpg",
-      "year": 1999,
-      "plot": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
-    },
-    {
-      "id": 9,
-      "title": "The Lord of the Rings: The Fellowship of the Ring",
-      "img": "https://m.media-amazon.com/images/I/51Qvs9i5a%2BL._AC_.jpg",
-      "year": 2001,
-      "plot": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron."
-    },
-    {
-      "id": 10,
-      "title": "The Avengers",
-      "img": "https://m.media-amazon.com/images/I/61ql5oF2ptL._AC_SY679_.jpg",
-      "year": 2012,
-      "plot": "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity."
-    },
-    {
-      "id": 11,
-      "title": "Movie 11",
-      "img": "https://example.com/poster11.jpg",
-      "year": 2011,
-      "plot": "This is the plot for Movie 11."
-    },
-    {
-      "id": 12,
-      "title": "Movie 12",
-      "img": "https://example.com/poster12.jpg",
-      "year": 2012,
-      "plot": "This is the plot for Movie 12."
-    },
-    {
-      "id": 13,
-      "title": "Movie 13",
-      "img": "https://example.com/poster13.jpg",
-      "year": 2013,
-      "plot": "This is the plot for Movie 13."
-    },
-    {
-      "id": 14,
-      "title": "Movie 14",
-      "img": "https://example.com/poster14.jpg",
-      "year": 2014,
-      "plot": "This is the plot for Movie 14."
-    },
-    {
-      "id": 15,
-      "title": "Movie 15",
-      "img": "https://example.com/poster15.jpg",
-      "year": 2015,
-      "plot": "This is the plot for Movie 15."
-    },
-    {
-      "id": 16,
-      "title": "Movie 16",
-      "img": "https://example.com/poster16.jpg",
-      "year": 2016,
-      "plot": "This is the plot for Movie 16."
-    },
-    {
-      "id": 17,
-      "title": "Movie 17",
-      "img": "https://example.com/poster17.jpg",
-      "year": 2017,
-      "plot": "This is the plot for Movie 17."
-    },
-    {
-      "id": 18,
-      "title": "Movie 18",
-      "img": "https://example.com/poster18.jpg",
-      "year": 2018,
-      "plot": "This is the plot for Movie 18."
-    },
-    {
-      "id": 19,
-      "title": "Movie 19",
-      "img": "https://example.com/poster19.jpg",
-      "year": 2019,
-      "plot": "This is the plot for Movie 19."
-    },
-    {
-      "id": 20,
-      "title": "Movie 20",
-      "img": "https://example.com/poster20.jpg",
-      "year": 2000,
-      "plot": "This is the plot for Movie 20."
-    },
-    {
-      "id": 21,
-      "title": "Movie 21",
-      "img": "https://example.com/poster21.jpg",
-      "year": 2001,
-      "plot": "This is the plot for Movie 21."
-    },
-    {
-      "id": 22,
-      "title": "Movie 22",
-      "img": "https://example.com/poster22.jpg",
-      "year": 2002,
-      "plot": "This is the plot for Movie 22."
-    },
-    {
-      "id": 23,
-      "title": "Movie 23",
-      "img": "https://example.com/poster23.jpg",
-      "year": 2003,
-      "plot": "This is the plot for Movie 23."
-    },
-    {
-      "id": 24,
-      "title": "Movie 24",
-      "img": "https://example.com/poster24.jpg",
-      "year": 2004,
-      "plot": "This is the plot for Movie 24."
-    },
-    {
-      "id": 25,
-      "title": "Movie 25",
-      "img": "https://example.com/poster25.jpg",
-      "year": 2005,
-      "plot": "This is the plot for Movie 25."
-    },
-    {
-      "id": 26,
-      "title": "Movie 26",
-      "img": "https://example.com/poster26.jpg",
-      "year": 2006,
-      "plot": "This is the plot for Movie 26."
-    },
-    {
-      "id": 27,
-      "title": "Movie 27",
-      "img": "https://example.com/poster27.jpg",
-      "year": 2007,
-      "plot": "This is the plot for Movie 27."
-    },
-    {
-      "id": 28,
-      "title": "Movie 28",
-      "img": "https://example.com/poster28.jpg",
-      "year": 2008,
-      "plot": "This is the plot for Movie 28."
-    },
-    {
-      "id": 29,
-      "title": "Movie 29",
-      "img": "https://example.com/poster29.jpg",
-      "year": 2009,
-      "plot": "This is the plot for Movie 29."
-    },
-    {
-      "id": 30,
-      "title": "Movie 30",
-      "img": "https://example.com/poster30.jpg",
-      "year": 2010,
-      "plot": "This is the plot for Movie 30."
-    },
-    {
-      "id": 31,
-      "title": "Movie 31",
-      "img": "https://example.com/poster31.jpg",
-      "year": 2011,
-      "plot": "This is the plot for Movie 31."
-    },
-    {
-      "id": 32,
-      "title": "Movie 32",
-      "img": "https://example.com/poster32.jpg",
-      "year": 2012,
-      "plot": "This is the plot for Movie 32."
-    },
-    {
-      "id": 33,
-      "title": "Movie 33",
-      "img": "https://example.com/poster33.jpg",
-      "year": 2013,
-      "plot": "This is the plot for Movie 33."
-    },
-    {
-      "id": 34,
-      "title": "Movie 34",
-      "img": "https://example.com/poster34.jpg",
-      "year": 2014,
-      "plot": "This is the plot for Movie 34."
-    },
-    {
-      "id": 35,
-      "title": "Movie 35",
-      "img": "https://example.com/poster35.jpg",
-      "year": 2015,
-      "plot": "This is the plot for Movie 35."
-    },
-    {
-      "id": 36,
-      "title": "Movie 36",
-      "img": "https://example.com/poster36.jpg",
-      "year": 2016,
-      "plot": "This is the plot for Movie 36."
-    },
-    {
-      "id": 37,
-      "title": "Movie 37",
-      "img": "https://example.com/poster37.jpg",
-      "year": 2017,
-      "plot": "This is the plot for Movie 37."
-    },
-    {
-      "id": 38,
-      "title": "Movie 38",
-      "img": "https://example.com/poster38.jpg",
-      "year": 2018,
-      "plot": "This is the plot for Movie 38."
-    },
-    {
-      "id": 39,
-      "title": "Movie 39",
-      "img": "https://example.com/poster39.jpg",
-      "year": 2019,
-      "plot": "This is the plot for Movie 39."
-    },
-    {
-      "id": 40,
-      "title": "Movie 40",
-      "img": "https://example.com/poster40.jpg",
-      "year": 2000,
-      "plot": "This is the plot for Movie 40."
-    },
-    {
-      "id": 41,
-      "title": "Movie 41",
-      "img": "https://example.com/poster41.jpg",
-      "year": 2001,
-      "plot": "This is the plot for Movie 41."
-    },
-    {
-      "id": 42,
-      "title": "Movie 42",
-      "img": "https://example.com/poster42.jpg",
-      "year": 2002,
-      "plot": "This is the plot for Movie 42."
-    },
-    {
-      "id": 43,
-      "title": "Movie 43",
-      "img": "https://example.com/poster43.jpg",
-      "year": 2003,
-      "plot": "This is the plot for Movie 43."
-    },
-    {
-      "id": 44,
-      "title": "Movie 44",
-      "img": "https://example.com/poster44.jpg",
-      "year": 2004,
-      "plot": "This is the plot for Movie 44."
-    },
-    {
-      "id": 45,
-      "title": "Movie 45",
-      "img": "https://example.com/poster45.jpg",
-      "year": 2005,
-      "plot": "This is the plot for Movie 45."
-    },
-    {
-      "id": 46,
-      "title": "Movie 46",
-      "img": "https://example.com/poster46.jpg",
-      "year": 2006,
-      "plot": "This is the plot for Movie 46."
-    },
-    {
-      "id": 47,
-      "title": "Movie 47",
-      "img": "https://example.com/poster47.jpg",
-      "year": 2007,
-      "plot": "This is the plot for Movie 47."
-    },
-    {
-      "id": 48,
-      "title": "Movie 48",
-      "img": "https://example.com/poster48.jpg",
-      "year": 2008,
-      "plot": "This is the plot for Movie 48."
-    },
-    {
-      "id": 49,
-      "title": "Movie 49",
-      "img": "https://example.com/poster49.jpg",
-      "year": 2009,
-      "plot": "This is the plot for Movie 49."
-    },
-    {
-      "id": 50,
-      "title": "Movie 50",
-      "img": "https://example.com/poster50.jpg",
-      "year": 2010,
-      "plot": "This is the plot for Movie 50."
-    },
-    {
-      "id": 51,
-      "title": "Movie 51",
-      "img": "https://example.com/poster51.jpg",
-      "year": 2011,
-      "plot": "This is the plot for Movie 51."
-    },
-    {
-      "id": 52,
-      "title": "Movie 52",
-      "img": "https://example.com/poster52.jpg",
-      "year": 2012,
-      "plot": "This is the plot for Movie 52."
-    },
-    {
-      "id": 53,
-      "title": "Movie 53",
-      "img": "https://example.com/poster53.jpg",
-      "year": 2013,
-      "plot": "This is the plot for Movie 53."
-    },
-    {
-      "id": 54,
-      "title": "Movie 54",
-      "img": "https://example.com/poster54.jpg",
-      "year": 2014,
-      "plot": "This is the plot for Movie 54."
-    },
-    {
-      "id": 55,
-      "title": "Movie 55",
-      "img": "https://example.com/poster55.jpg",
-      "year": 2015,
-      "plot": "This is the plot for Movie 55."
-    },
-    {
-      "id": 56,
-      "title": "Movie 56",
-      "img": "https://example.com/poster56.jpg",
-      "year": 2016,
-      "plot": "This is the plot for Movie 56."
-    },
-    {
-      "id": 57,
-      "title": "Movie 57",
-      "img": "https://example.com/poster57.jpg",
-      "year": 2017,
-      "plot": "This is the plot for Movie 57."
-    },
-    {
-      "id": 58,
-      "title": "Movie 58",
-      "img": "https://example.com/poster58.jpg",
-      "year": 2018,
-      "plot": "This is the plot for Movie 58."
-    },
-    {
-      "id": 59,
-      "title": "Movie 59",
-      "img": "https://example.com/poster59.jpg",
-      "year": 2019,
-      "plot": "This is the plot for Movie 59."
-    },
-    {
-      "id": 60,
-      "title": "Movie 60",
-      "img": "https://example.com/poster60.jpg",
-      "year": 2000,
-      "plot": "This is the plot for Movie 60."
-    },
-    {
-      "id": 61,
-      "title": "Movie 61",
-      "img": "https://example.com/poster61.jpg",
-      "year": 2001,
-      "plot": "This is the plot for Movie 61."
-    },
-    {
-      "id": 62,
-      "title": "Movie 62",
-      "img": "https://example.com/poster62.jpg",
-      "year": 2002,
-      "plot": "This is the plot for Movie 62."
-    },
-    {
-      "id": 63,
-      "title": "Movie 63",
-      "img": "https://example.com/poster63.jpg",
-      "year": 2003,
-      "plot": "This is the plot for Movie 63."
-    },
-    {
-      "id": 64,
-      "title": "Movie 64",
-      "img": "https://example.com/poster64.jpg",
-      "year": 2004,
-      "plot": "This is the plot for Movie 64."
-    },
-    {
-      "id": 65,
-      "title": "Movie 65",
-      "img": "https://example.com/poster65.jpg",
-      "year": 2005,
-      "plot": "This is the plot for Movie 65."
-    },
-    {
-      "id": 66,
-      "title": "Movie 66",
-      "img": "https://example.com/poster66.jpg",
-      "year": 2006,
-      "plot": "This is the plot for Movie 66."
-    },
-    {
-      "id": 67,
-      "title": "Movie 67",
-      "img": "https://example.com/poster67.jpg",
-      "year": 2007,
-      "plot": "This is the plot for Movie 67."
-    },
-    {
-      "id": 68,
-      "title": "Movie 68",
-      "img": "https://example.com/poster68.jpg",
-      "year": 2008,
-      "plot": "This is the plot for Movie 68."
-    },
-    {
-      "id": 69,
-      "title": "Movie 69",
-      "img": "https://example.com/poster69.jpg",
-      "year": 2009,
-      "plot": "This is the plot for Movie 69."
-    },
-    {
-      "id": 70,
-      "title": "Movie 70",
-      "img": "https://example.com/poster70.jpg",
-      "year": 2010,
-      "plot": "This is the plot for Movie 70."
-    },
-    {
-      "id": 71,
-      "title": "Movie 71",
-      "img": "https://example.com/poster71.jpg",
-      "year": 2011,
-      "plot": "This is the plot for Movie 71."
-    },
-    {
-      "id": 72,
-      "title": "Movie 72",
-      "img": "https://example.com/poster72.jpg",
-      "year": 2012,
-      "plot": "This is the plot for Movie 72."
-    },
-    {
-      "id": 73,
-      "title": "Movie 73",
-      "img": "https://example.com/poster73.jpg",
-      "year": 2013,
-      "plot": "This is the plot for Movie 73."
-    },
-    {
-      "id": 74,
-      "title": "Movie 74",
-      "img": "https://example.com/poster74.jpg",
-      "year": 2014,
-      "plot": "This is the plot for Movie 74."
-    },
-    {
-      "id": 75,
-      "title": "Movie 75",
-      "img": "https://example.com/poster75.jpg",
-      "year": 2015,
-      "plot": "This is the plot for Movie 75."
-    },
-    {
-      "id": 76,
-      "title": "Movie 76",
-      "img": "https://example.com/poster76.jpg",
-      "year": 2016,
-      "plot": "This is the plot for Movie 76."
-    },
-    {
-      "id": 77,
-      "title": "Movie 77",
-      "img": "https://example.com/poster77.jpg",
-      "year": 2017,
-      "plot": "This is the plot for Movie 77."
-    },
-    {
-      "id": 78,
-      "title": "Movie 78",
-      "img": "https://example.com/poster78.jpg",
-      "year": 2018,
-      "plot": "This is the plot for Movie 78."
-    },
-    {
-      "id": 79,
-      "title": "Movie 79",
-      "img": "https://example.com/poster79.jpg",
-      "year": 2019,
-      "plot": "This is the plot for Movie 79."
-    },
-    {
-      "id": 80,
-      "title": "Movie 80",
-      "img": "https://example.com/poster80.jpg",
-      "year": 2000,
-      "plot": "This is the plot for Movie 80."
-    },
-    {
-      "id": 81,
-      "title": "Movie 81",
-      "img": "https://example.com/poster81.jpg",
-      "year": 2001,
-      "plot": "This is the plot for Movie 81."
-    },
-    {
-      "id": 82,
-      "title": "Movie 82",
-      "img": "https://example.com/poster82.jpg",
-      "year": 2002,
-      "plot": "This is the plot for Movie 82."
-    },
-    {
-      "id": 83,
-      "title": "Movie 83",
-      "img": "https://example.com/poster83.jpg",
-      "year": 2003,
-      "plot": "This is the plot for Movie 83."
-    },
-    {
-      "id": 84,
-      "title": "Movie 84",
-      "img": "https://example.com/poster84.jpg",
-      "year": 2004,
-      "plot": "This is the plot for Movie 84."
-    },
-    {
-      "id": 85,
-      "title": "Movie 85",
-      "img": "https://example.com/poster85.jpg",
-      "year": 2005,
-      "plot": "This is the plot for Movie 85."
-    },
-    {
-      "id": 86,
-      "title": "Movie 86",
-      "img": "https://example.com/poster86.jpg",
-      "year": 2006,
-      "plot": "This is the plot for Movie 86."
-    },
-    {
-      "id": 87,
-      "title": "Movie 87",
-      "img": "https://example.com/poster87.jpg",
-      "year": 2007,
-      "plot": "This is the plot for Movie 87."
-    },
-    {
-      "id": 88,
-      "title": "Movie 88",
-      "img": "https://example.com/poster88.jpg",
-      "year": 2008,
-      "plot": "This is the plot for Movie 88."
-    },
-    {
-      "id": 89,
-      "title": "Movie 89",
-      "img": "https://example.com/poster89.jpg",
-      "year": 2009,
-      "plot": "This is the plot for Movie 89."
-    },
-    {
-      "id": 90,
-      "title": "Movie 90",
-      "img": "https://example.com/poster90.jpg",
-      "year": 2010,
-      "plot": "This is the plot for Movie 90."
-    },
-    {
-      "id": 91,
-      "title": "Movie 91",
-      "img": "https://example.com/poster91.jpg",
-      "year": 2011,
-      "plot": "This is the plot for Movie 91."
-    },
-    {
-      "id": 92,
-      "title": "Movie 92",
-      "img": "https://example.com/poster92.jpg",
-      "year": 2012,
-      "plot": "This is the plot for Movie 92."
-    },
-    {
-      "id": 93,
-      "title": "Movie 93",
-      "img": "https://example.com/poster93.jpg",
-      "year": 2013,
-      "plot": "This is the plot for Movie 93."
-    },
-    {
-      "id": 94,
-      "title": "Movie 94",
-      "img": "https://example.com/poster94.jpg",
-      "year": 2014,
-      "plot": "This is the plot for Movie 94."
-    },
-    {
-      "id": 95,
-      "title": "Movie 95",
-      "img": "https://example.com/poster95.jpg",
-      "year": 2015,
-      "plot": "This is the plot for Movie 95."
-    },
-    {
-      "id": 96,
-      "title": "Movie 96",
-      "img": "https://example.com/poster96.jpg",
-      "year": 2016,
-      "plot": "This is the plot for Movie 96."
-    },
-    {
-      "id": 97,
-      "title": "Movie 97",
-      "img": "https://example.com/poster97.jpg",
-      "year": 2017,
-      "plot": "This is the plot for Movie 97."
-    },
-    {
-      "id": 98,
-      "title": "Movie 98",
-      "img": "https://example.com/poster98.jpg",
-      "year": 2018,
-      "plot": "This is the plot for Movie 98."
-    },
-    {
-      "id": 99,
-      "title": "Movie 99",
-      "img": "https://example.com/poster99.jpg",
-      "year": 2019,
-      "plot": "This is the plot for Movie 99."
-    },
-    {
-      "id": 100,
-      "title": "Movie 100",
-      "img": "https://example.com/poster100.jpg",
-      "year": 2000,
-      "plot": "This is the plot for Movie 100."
-    }
-  ]
-}
+"movies": [
+      {
+        "id": 0,
+        "title": "The Shawshank Redemption",
+        "img": "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",
+        "year": 1994,
+        "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "genere": "Drama"
+      },
+      {
+        "id": 1,
+        "title": "The Godfather",
+        "img": "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",
+        "year": 1972,
+        "plot": "The aging patriarch of an organized crime dynasty transfers control of his empire to his reluctant son.",
+        "genere": "Crime"
+      },
+      {
+        "id": 2,
+        "title": "The Dark Knight",
+        "img": "https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg",
+        "year": 2008,
+        "plot": "When the menace known as the Joker emerges, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+        "genere": "Action"
+      },
+      {
+        "id": 3,
+        "title": "Forrest Gump",
+        "img": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
+        "year": 1994,
+        "plot": "The presidencies of Kennedy and Johnson, the Vietnam War, and more, seen through the eyes of an Alabama man with a low IQ.",
+        "genere": "Drama"
+      },
+      {
+        "id": 4,
+        "title": "Inception",
+        "img": "https://upload.wikimedia.org/wikipedia/en/7/7f/Inception_ver3.jpg",
+        "year": 2010,
+        "plot": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+        "genere": "Sci-Fi"
+      },
+      {
+        "id": 5,
+        "title": "Fight Club",
+        "img": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg",
+        "year": 1999,
+        "plot": "An insomniac office worker and a soap maker form an underground fight club that evolves into something much bigger.",
+        "genere": "Drama"
+      },
+      {
+        "id": 6,
+        "title": "Pulp Fiction",
+        "img": "https://upload.wikimedia.org/wikipedia/en/8/82/Pulp_Fiction_cover.jpg",
+        "year": 1994,
+        "plot": "The lives of two mob hitmen, a boxer, a gangster, and his wife intertwine in four tales of violence and redemption.",
+        "genere": "Crime"
+      },
+      {
+        "id": 7,
+        "title": "The Matrix",
+        "img": "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg",
+        "year": 1999,
+        "plot": "A computer hacker learns about the true nature of his reality and his role in the war against its controllers.",
+        "genere": "Sci-Fi"
+      },
+      {
+        "id": 8,
+        "title": "Gladiator",
+        "img": "https://upload.wikimedia.org/wikipedia/en/8/8d/Gladiator_ver1.jpg",
+        "year": 2000,
+        "plot": "A former Roman general sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+        "genere": "Action"
+      },
+      {
+        "id": 9,
+        "title": "Schindler's List",
+        "img": "https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg",
+        "year": 1993,
+        "plot": "In German-occupied Poland during WWII, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce.",
+        "genere": "Drama"
+      },
+      {
+        "id": 10,
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "img": "https://upload.wikimedia.org/wikipedia/en/0/0c/The_Fellowship_Of_The_Ring.jpg",
+        "year": 2001,
+        "plot": "A meek Hobbit and his companions set out to destroy the powerful One Ring and save Middle-earth.",
+        "genere": "Fantasy"
+      },
+      {
+        "id": 11,
+        "title": "The Silence of the Lambs",
+        "img": "https://upload.wikimedia.org/wikipedia/en/8/86/The_Silence_of_the_Lambs_poster.jpg",
+        "year": 1991,
+        "plot": "A young FBI agent seeks the help of a manipulative cannibal killer to catch another serial killer.",
+        "genere": "Thriller"
+      },
+      {
+        "id": 12,
+        "title": "Saving Private Ryan",
+        "img": "https://upload.wikimedia.org/wikipedia/en/a/ac/Saving_Private_Ryan_poster.jpg",
+        "year": 1998,
+        "plot": "Following the Normandy Landings, a group of soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed.",
+        "genere": "War"
+      },
+      {
+        "id": 13,
+        "title": "Se7en",
+        "img": "https://upload.wikimedia.org/wikipedia/en/6/68/Seven_%28movie%29_poster.jpg",
+        "year": 1995,
+        "plot": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+        "genere": "Thriller"
+      },
+      {
+        "id": 14,
+        "title": "Interstellar",
+        "img": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
+        "year": 2014,
+        "plot": "A team of explorers travels through a wormhole in space in an attempt to ensure humanity's survival.",
+        "genere": "Sci-Fi"
+      },
+      {
+        "id": 15,
+        "title": "The Green Mile",
+        "img": "https://upload.wikimedia.org/wikipedia/en/c/ce/Green_mile_poster.jpg",
+        "year": 1999,
+        "plot": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, who has a mysterious gift.",
+        "genere": "Drama"
+      },
+      {
+        "id": 16,
+        "title": "The Departed",
+        "img": "https://upload.wikimedia.org/wikipedia/en/5/50/Departed234.jpg",
+        "year": 2006,
+        "plot": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in Boston.",
+        "genere": "Crime"
+      },
+      {
+        "id": 17,
+        "title": "Django Unchained",
+        "img": "https://upload.wikimedia.org/wikipedia/en/8/8b/Django_Unchained_Poster.jpg",
+        "year": 2012,
+        "plot": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation-owner in Mississippi.",
+        "genere": "Western"
+      },
+      {
+        "id": 18,
+        "title": "Inglourious Basterds",
+        "img": "https://upload.wikimedia.org/wikipedia/en/c/c3/Inglourious_Basterds_poster.jpg",
+        "year": 2009,
+        "plot": "In Nazi-occupied France, a group of Jewish soldiers plan to assassinate Nazi leaders.",
+        "genere": "War"
+      },
+      {
+        "id": 19,
+        "title": "The Wolf of Wall Street",
+        "img": "https://upload.wikimedia.org/wikipedia/en/d/d8/The_Wolf_of_Wall_Street.jpg",
+        "year": 2013,
+        "plot": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker to his fall involving crime and corruption.",
+        "genere": "Biography"
+      },
+      {
+        "id": 20,
+        "title": "Whiplash",
+        "img": "https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg",
+        "year": 2014,
+        "plot": "A promising young drummer enrolls at a music conservatory where he is mentored by a ruthless instructor.",
+        "genere": "Drama"
+      },
+      {
+        "id": 21,
+        "title": "Goodfellas",
+        "img": "https://upload.wikimedia.org/wikipedia/en/7/7b/Goodfellas.jpg",
+        "year": 1990,
+        "plot": "The story of Henry Hill and his life in the mob, covering his relationship with his wife and his involvement with the mob's violent partners.",
+        "genere": "Crime"
+      },
+      {
+        "id": 22,
+        "title": "The Truman Show",
+        "img": "https://upload.wikimedia.org/wikipedia/en/8/82/Truman_Show_poster.jpg",
+        "year": 1998,
+        "plot": "An insurance salesman discovers his entire life is actually a reality TV show.",
+        "genere": "Drama"
+      },
+      {
+        "id": 23,
+        "title": "The Prestige",
+        "img": "https://upload.wikimedia.org/wikipedia/en/d/d2/Prestige_poster.jpg",
+        "year": 2006,
+        "plot": "Two stage magicians engage in competitive one-upmanship in an attempt to create the ultimate stage illusion.",
+        "genere": "Mystery"
+      },
+      {
+        "id": 24,
+        "title": "American Beauty",
+        "img": "https://upload.wikimedia.org/wikipedia/en/b/b6/American_Beauty_poster.jpg",
+        "year": 1999,
+        "plot": "A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter's best friend.",
+        "genere": "Drama"
+      },
+      {
+        "id": 25,
+        "title": "Shutter Island",
+        "img": "https://upload.wikimedia.org/wikipedia/en/7/76/Shutterislandposter.jpg",
+        "year": 2010,
+        "plot": "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane.",
+        "genere": "Thriller"
+      },
+      {
+        "id": 26,
+        "title": "The Sixth Sense",
+        "img": "https://upload.wikimedia.org/wikipedia/en/6/66/The_Sixth_Sense.jpg",
+        "year": 1999,
+        "plot": "A boy who communicates with spirits seeks the help of a disheartened child psychologist.",
+        "genere": "Horror"
+      },
+      {
+        "id": 27,
+        "title": "Memento",
+        "img": "https://upload.wikimedia.org/wikipedia/en/c/c7/Memento_poster.jpg",
+        "year": 2000,
+        "plot": "A man with short-term memory loss attempts to track down his wife's murderer.",
+        "genere": "Mystery"
+      },
+      {
+        "id": 28,
+        "title": "Braveheart",
+        "img": "https://upload.wikimedia.org/wikipedia/en/5/55/Braveheart_imp.jpg",
+        "year": 1995,
+        "plot": "Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from tyranny.",
+        "genere": "History"
+      },
+      {
+        "id": 29,
+        "title": "The Usual Suspects",
+        "img": "https://upload.wikimedia.org/wikipedia/en/9/9c/Usual_suspects_ver1.jpg",
+        "year": 1995,
+        "plot": "A sole survivor tells the twisted events leading up to a horrific gun battle on a boat.",
+        "genere": "Crime"
+      }
+    ]
+  }
+
+
+
+

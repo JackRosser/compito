@@ -85,18 +85,18 @@ timer:any
   }
 
   // MI ASSICURO CHE AL REFRESH L'UTENTE RIMANGA LOGGATO
-  userRefresh(){
-    const userJson:string|null = localStorage.getItem('accessData')
-    if(!userJson) return
+  // ____________________ Michele io non ci sono riuscito a settare il timeout, quindi semplicemente mi assicuro che ci sia l'user nel localstorage
+  userRefresh() {
+    const userJson: string | null = localStorage.getItem('accessData');
 
-    const accessData:iAccess = JSON.parse(userJson);
-
-    if(this.jwtHelper.isTokenExpired(accessData.token)){
-      localStorage.removeItem('accessData')
-      return
+    if (userJson) {
+      const accessData: iAccess = JSON.parse(userJson);
+      this.authBh.next(accessData);
+    } else {
+      this.logout();
     }
- this.authBh.next(accessData)
-
   }
+
+
 
 }

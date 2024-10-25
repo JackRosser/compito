@@ -1,3 +1,5 @@
+import { iMovie } from "./i-movie";
+
 export interface iUser {
   id:number,
   email:string,
@@ -8,5 +10,6 @@ export interface iUser {
   voto:boolean,
   hobby:string,
   pizza:string,
+  favorites:iMovie[]
 
 }
