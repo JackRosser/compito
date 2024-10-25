@@ -1,1 +1,12 @@
-<p>lista-utenti works!</p>
+<app-navbar></app-navbar>
+<app-carloconti></app-carloconti>
+
+<ul
+  *ngIf="userList.length > 0"
+  class="w-1/2 h-full flex flex-col items-end justify-center gap-5"
+>
+  <li *ngFor="let user of userList" class="border p-5 shadow-md">
+    <span class="text-white bg-black p-1">{{ user.nome }}</span> -
+    {{ user.email }}
+  </li>
+</ul>

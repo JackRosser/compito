@@ -5,6 +5,8 @@ import { ListaUtentiRoutingModule } from './lista-utenti-routing.module';
 import { ListaUtentiComponent } from './lista-utenti.component';
 import { SharedModule } from '../../shared/shared.module';
 
+import {Component} from '@angular/core';
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,8 @@ import { SharedModule } from '../../shared/shared.module';
   imports: [
     CommonModule,
     ListaUtentiRoutingModule,
-    SharedModule
+    SharedModule,
+    MatTableModule
   ]
 })
 export class ListaUtentiModule { }
