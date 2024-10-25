@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { iLogin } from '../../../models/i-login';
+import { iUser } from '../../../models/i-user';
 import { NgFor } from '@angular/common';
 import { NgForm } from '@angular/forms';
 import { CarlocontiService } from '../../../services/carloconti.service';
@@ -16,7 +16,8 @@ constructor(private carloSvc:CarlocontiService) {}
 
 @ViewChild('myLogin') form!:NgForm
 
-loginData:iLogin = {
+loginData:iUser = {
+  id: 0,
   email: '',
   password: ''
 }
