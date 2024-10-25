@@ -39,9 +39,9 @@ ngAfterViewInit():void {
 
 submitLogin() {
   this.authSvc.login(this.form.value).subscribe(data => {
-    this.messageOfCarlo = "Qua trovi tutti i film. Le cards sono tristi e anonime perchè non c'era tempo. Per lo stesso motivo, io non sono responsive. Guarda questo sito con uno schermo grande per non farmi fare brutta figura."
     this.redirect.navigate(['/home']);
   });
+  this.carloSvc.trollOn(false)
 }
 
 
@@ -66,7 +66,12 @@ nextMessage():void {
 }
 
 ngOnInit() {
-  this.carloSvc.messageFromCarlo(this.messageOfCarlo)
+this.carloSvc.carloMsg$.subscribe(message => {
+  if (message === "") {
+this.carloSvc.messageFromCarlo(this.messageOfCarlo)
+  }
+})
+
 }
 
 }

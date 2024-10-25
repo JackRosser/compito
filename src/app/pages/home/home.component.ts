@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
 
   listOfFilms!: iMovie[];
   user!: iUser;
-  messageOfCarlo!: string;
+  messageOfCarlo:string = "Qua trovi tutti i film. Le cards sono tristi e anonime perchè non c'era tempo. Per lo stesso motivo, io non sono responsive. Guarda questo sito con uno schermo grande per non farmi fare brutta figura."
 
   constructor(
     private movieSv: MoviesService,
@@ -25,6 +25,13 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     const accessData = JSON.parse(localStorage.getItem("accessData") || '{}');
     const userId = accessData.user?.id;
+
+    this.carloSvc.carloMsg$.subscribe(message => {
+
+    this.carloSvc.messageFromCarlo(this.messageOfCarlo)
+
+    })
+
 
     if (userId) {
       this.userSvc.user$.subscribe(users => {

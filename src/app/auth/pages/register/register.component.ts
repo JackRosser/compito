@@ -2,6 +2,7 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 import { AuthService } from '../../../services/auth.service';
 import { iUser } from '../../../models/i-user';
 import { Router } from '@angular/router';
+import { CarlocontiService } from '../../../services/carloconti.service';
 
 @Component({
   selector: 'app-register',
@@ -10,7 +11,7 @@ import { Router } from '@angular/router';
 })
 export class RegisterComponent {
 
-constructor(private authSvc:AuthService, private redirect:Router) {}
+constructor(private authSvc:AuthService, private redirect:Router, private carloSvc:CarlocontiService) {}
 
 form:Partial<iUser> = {}
 
@@ -22,9 +23,12 @@ diavolaHidden():void {
   }, 300);
 }
 
+messageOfCarlo!:string
+
 registah() {
 this.authSvc.register(this.form).subscribe(() => {
-
+this.messageOfCarlo = "Bene, adesso che ti sei registrato loggati e non farmi incazzare"
+this.carloSvc.messageFromCarlo(this.messageOfCarlo)
   this.redirect.navigate(['/login'])
 })
 }
