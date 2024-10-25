@@ -15,16 +15,17 @@ export class AuthGuard implements CanActivate, CanActivateChild {
 
   canActivate(
     route: ActivatedRouteSnapshot,
-    state: RouterStateSnapshot): MaybeAsync<GuardResult> {
-      return this.authSvc.userLogged$.pipe(map(isLogged => {
-
-        if(!isLogged){
-          this.redirect.navigate(['/login'])
-        }
-
-       return isLogged
-      }))
+    state: RouterStateSnapshot
+  ): MaybeAsync<GuardResult> {
+    return this.authSvc.userLogged$.pipe(map(isLogged => {
+      console.log('AuthGuard - isLogged:', isLogged);
+      if (!isLogged) {
+        this.redirect.navigate(['/login']);
+      }
+      return isLogged;
+    }));
   }
+
   canActivateChild(
     childRoute: ActivatedRouteSnapshot,
     state: RouterStateSnapshot): MaybeAsync<GuardResult> {

@@ -1,1 +1,35 @@
 <app-carloconti></app-carloconti>
+<section
+  class="w-full h-screen flex flex-col justify-start items-center gap-5 pt-[10rem] lg:pt-0 lg:justify-center"
+>
+  <h2>Login</h2>
+  <form #myLogin="ngForm" class="flex flex-col border p-5">
+    <mat-form-field>
+      <mat-label>eMail</mat-label>
+      <input
+        type="text"
+        matInput
+        placeholder="Inserisci la tua mail"
+        class="placeholder:text-[0.8rem]"
+        name="email"
+        ngModel
+      />
+    </mat-form-field>
+    <mat-form-field class="mb-0">
+      <mat-label>Password</mat-label>
+      <input
+        type="password"
+        matInput
+        placeholder="Inserisci la tua password"
+        class="placeholder:text-[0.8rem]"
+        name="password"
+        ngModel
+      />
+    </mat-form-field>
+    <div class="flex flex-col gap-5">
+      <button mat-raised-button>
+        <a routerLink="/home">Register</a>
+      </button>
+    </div>
+  </form>
+</section>

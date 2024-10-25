@@ -15,17 +15,16 @@ export class GuestGuard implements CanActivate, CanActivateChild {
 
   canActivate(
     route: ActivatedRouteSnapshot,
-    state: RouterStateSnapshot): MaybeAsync<GuardResult> {
-      return this.authSvc.userLogged$.pipe(map(isLogged => {
-
-        if(isLogged){
-          this.redirect.navigate(['/home'])
-        }
-
-       return !isLogged
-      }))
-
-    }
+    state: RouterStateSnapshot
+  ): MaybeAsync<GuardResult> {
+    return this.authSvc.userLogged$.pipe(map(isLogged => {
+      console.log('GuestGuard - isLogged:', isLogged);
+      if (isLogged) {
+        this.redirect.navigate(['/home']);
+      }
+      return !isLogged;
+    }));
+  }
 
   canActivateChild(
     childRoute: ActivatedRouteSnapshot,

@@ -19,7 +19,13 @@ constructor(private carloSvc:CarlocontiService) {}
 loginData:iUser = {
   id: 0,
   email: '',
-  password: ''
+  password: '',
+  nome: '',
+  secondonome: '',
+  cognome: '',
+  cessazione: false,
+  hobby: '',
+  pizza: ''
 }
 
 ngAfterViewInit():void {
