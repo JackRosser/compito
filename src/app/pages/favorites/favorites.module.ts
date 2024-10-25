@@ -5,6 +5,9 @@ import { FavoritesRoutingModule } from './favorites-routing.module';
 import { FavoritesComponent } from './favorites.component';
 import { SharedModule } from '../../shared/shared.module';
 
+import {ChangeDetectionStrategy, Component} from '@angular/core';
+import {MatCardModule} from '@angular/material/card';
+
 
 @NgModule({
   declarations: [
@@ -13,7 +16,8 @@ import { SharedModule } from '../../shared/shared.module';
   imports: [
     CommonModule,
     FavoritesRoutingModule,
-    SharedModule
+    SharedModule,
+    MatCardModule
   ]
 })
 export class FavoritesModule { }

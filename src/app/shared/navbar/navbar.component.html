@@ -1,9 +1,8 @@
 <nav
   *ngIf="user"
   class="fixed top-0 w-full py-3 px-10 z-50 bg-black bg-opacity-50 text-white cursor-pointer flex justify-end items-center"
-  (mouseover)="navOver()"
-  (mouseleave)="navLeave()"
 >
+  <a routerLink="/lista-utenti" class="flex-grow">Lista Utenti</a>
   <a routerLink="/home" class="flex-grow">Home</a>
   Benvenuto
   <span>

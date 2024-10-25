@@ -21,15 +21,6 @@ export class NavbarComponent {
   user!: string;
   favoriteList!: iUser[];
 
-  navOver() {
-    this.messageOfCarlo = "Ti vedo che stai andando a vedere se il mio creatore ha fatto tutte le funzionalità richieste, e vergognati per averne dubitato";
-    this.carloSvc.messageFromCarlo(this.messageOfCarlo);
-  }
-
-  navLeave() {
-    this.messageOfCarlo = "E adesso sei uscito per vedere se succedeva qualcosa";
-    this.carloSvc.messageFromCarlo(this.messageOfCarlo);
-  }
 
   capitalize(word: string): string {
     return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();

@@ -1,2 +1,22 @@
 <app-navbar></app-navbar>
 <app-carloconti></app-carloconti>
+<section class="w-full h-full p-5 flex items-center justify-end">
+  <div
+    *ngIf="favorite"
+    class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5"
+  >
+    <mat-card
+      *ngFor="let movie of favorite"
+      class="example-card"
+      appearance="outlined"
+    >
+      <mat-card-header>
+        <mat-card-title-group>
+          <mat-card-title>{{ movie.title }}</mat-card-title>
+          <mat-card-subtitle>{{ movie.genere }}</mat-card-subtitle>
+          <img mat-card-sm-image [src]="movie.img" />
+        </mat-card-title-group>
+      </mat-card-header>
+    </mat-card>
+  </div>
+</section>

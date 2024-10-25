@@ -24,7 +24,7 @@
     },
     {
       "email": "jack@jack.com",
-      "password": "$2a$10$PRgKs7aU58hKUxn2VaEIC.x/6tAhIy86WcSxSFXa.7n3t3NwjI5ku",
+      "password": "$2a$10$hwvOb1HNmGWIFK2UJtO/4OQH7T4NWf9rZV.fEzKy2JeIxrVHls00O",
       "nome": "jack",
       "secondonome": "cognome",
       "cognome": "cognomone",
@@ -80,6 +80,30 @@
           "year": 1999,
           "plot": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, who has a mysterious gift.",
           "genere": "Drama"
+        },
+        {
+          "id": 15,
+          "title": "The Green Mile",
+          "img": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_FMjpg_UX1000_.jpg",
+          "year": 1999,
+          "plot": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, who has a mysterious gift.",
+          "genere": "Drama"
+        },
+        {
+          "id": 16,
+          "title": "The Departed",
+          "img": "https://upload.wikimedia.org/wikipedia/en/5/50/Departed234.jpg",
+          "year": 2006,
+          "plot": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in Boston.",
+          "genere": "Crime"
+        },
+        {
+          "id": 17,
+          "title": "Django Unchained",
+          "img": "https://upload.wikimedia.org/wikipedia/en/8/8b/Django_Unchained_Poster.jpg",
+          "year": 2012,
+          "plot": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation-owner in Mississippi.",
+          "genere": "Western"
         }
       ]
     }
