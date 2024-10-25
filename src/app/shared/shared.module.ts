@@ -5,6 +5,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonModule} from '@angular/material/button';
 import { NavbarComponent } from './navbar/navbar.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -17,8 +18,9 @@ import { NavbarComponent } from './navbar/navbar.component';
     CommonModule,
     MatButtonModule,
     MatDividerModule,
-    MatIconModule
+    MatIconModule,
+    RouterModule
   ],
-  exports: [CarlocontiComponent]
+  exports: [CarlocontiComponent, NavbarComponent]
 })
 export class SharedModule { }

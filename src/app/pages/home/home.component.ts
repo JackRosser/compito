@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
 
   listOfFilms!: iMovie[];
   user!: iUser;
-  messageOfCarlo:string = "Qua trovi tutti i film. Le cards sono tristi e anonime perchè non c'era tempo. Per lo stesso motivo, io non sono responsive. Guarda questo sito con uno schermo grande per non farmi fare brutta figura."
+  messageOfCarlo:string = "Qua trovi tutti i film. Le cards sono tristi e anonime perchè non c'era tempo. Per lo stesso motivo, io non sono responsive. Guarda questo sito con uno schermo grande per non farmi fare brutta figura. Se vedi i Like sormontati è perché il mio creatore ha fatto casino con gli z-index."
 
   constructor(
     private movieSv: MoviesService,

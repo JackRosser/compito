@@ -10,6 +10,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonModule} from '@angular/material/button';
 
+
 @NgModule({
   declarations: [
     AppComponent
@@ -19,7 +20,7 @@ import {MatButtonModule} from '@angular/material/button';
     AppRoutingModule,
     MatButtonModule,
     MatDividerModule,
-    MatIconModule
+    MatIconModule,
   ],
   providers: [provideHttpClient(), provideAnimationsAsync()],
   bootstrap: [AppComponent]

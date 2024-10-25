@@ -1,1 +1,17 @@
-<p>navbar works!</p>
+<nav
+  *ngIf="user"
+  class="fixed top-0 w-full py-3 px-10 z-50 bg-black bg-opacity-50 text-white cursor-pointer flex justify-end items-center"
+  (mouseover)="navOver()"
+  (mouseleave)="navLeave()"
+>
+  <a routerLink="/home" class="flex-grow">Home</a>
+  Benvenuto
+  <span>
+    <a
+      class="ms-5 hover:text-blue-600 text-[2rem]"
+      routerLink="/favorites"
+      routerLinkActive="router-link-active"
+      >{{ capitalize(user) }}</a
+    >
+  </span>
+</nav>
