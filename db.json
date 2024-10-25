@@ -2,163 +2,104 @@
   "users": [
     {
       "email": "admin@admin.com",
-      "password": "$2a$10$DL25B2YRLjt8q9BtgduGAek5ovU8q9jVQpz1PXYSJZgoKTboxVbTG",
-      "nome": "jack",
-      "secondonome": "jack2",
-      "cognome": "cognome",
+      "password": "$2a$10$CPjNN/RUAMf77WEzo6ZnOe.iiOuCAxloKBHEX1m7WRNrXcfzrNNfG",
+      "nome": "admin",
+      "secondonome": "adminadmin",
+      "cognome": "adminadminadmin",
       "voto": "si",
       "hobby": "A nessuno importa",
       "pizza": "Prosciutto Funghi Fragole",
-      "id": 1
+      "id": 1,
+      "favorites": [
+        {
+          "id": 4,
+          "title": "Inception",
+          "img": "https://m.media-amazon.com/images/I/912AErFSBHL._AC_UF1000,1000_QL80_.jpg",
+          "year": 2010,
+          "plot": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+          "genere": "Sci-Fi"
+        },
+        {
+          "id": 5,
+          "title": "Fight Club",
+          "img": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg",
+          "year": 1999,
+          "plot": "An insomniac office worker and a soap maker form an underground fight club that evolves into something much bigger.",
+          "genere": "Drama"
+        },
+        {
+          "id": 3,
+          "title": "Forrest Gump",
+          "img": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
+          "year": 1994,
+          "plot": "The presidencies of Kennedy and Johnson, the Vietnam War, and more, seen through the eyes of an Alabama man with a low IQ.",
+          "genere": "Drama"
+        }
+      ]
     },
     {
-      "email": "ciao@ciao.com",
-      "password": "$2a$10$z2xRnTK7zvkEGysJjJYvN.QTuRIJjKgSIm8ADWkha5gJ/fsX4g7vO",
-      "nome": "jack",
-      "secondonome": "jackjack",
-      "cognome": "cognome",
+      "email": "gino@gino.com",
+      "password": "$2a$10$iwbnoSrx4pdVyOtH0RRxOe/MkyAPfFAu0kh8XSN9zhuyBtp4gVVge",
+      "nome": "gino",
+      "secondonome": "gino",
+      "cognome": "gino",
       "voto": "si",
       "hobby": "A nessuno importa",
       "pizza": "Prosciutto Funghi Fragole",
-      "id": 2
+      "id": 2,
+      "favorites": [
+        {
+          "id": 3,
+          "title": "Forrest Gump",
+          "img": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
+          "year": 1994,
+          "plot": "The presidencies of Kennedy and Johnson, the Vietnam War, and more, seen through the eyes of an Alabama man with a low IQ.",
+          "genere": "Drama"
+        },
+        {
+          "id": 4,
+          "title": "Inception",
+          "img": "https://m.media-amazon.com/images/I/912AErFSBHL._AC_UF1000,1000_QL80_.jpg",
+          "year": 2010,
+          "plot": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+          "genere": "Sci-Fi"
+        },
+        {
+          "id": 5,
+          "title": "Fight Club",
+          "img": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg",
+          "year": 1999,
+          "plot": "An insomniac office worker and a soap maker form an underground fight club that evolves into something much bigger.",
+          "genere": "Drama"
+        },
+        {
+          "id": 9,
+          "title": "Schindler's List",
+          "img": "https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg",
+          "year": 1993,
+          "plot": "In German-occupied Poland during WWII, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce.",
+          "genere": "Drama"
+        },
+        {
+          "id": 8,
+          "title": "Gladiator",
+          "img": "https://upload.wikimedia.org/wikipedia/en/f/fb/Gladiator_%282000_film_poster%29.png",
+          "year": 2000,
+          "plot": "A former Roman general sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+          "genere": "Action"
+        }
+      ]
     },
     {
       "email": "jack@jack.com",
-      "password": "$2a$10$hwvOb1HNmGWIFK2UJtO/4OQH7T4NWf9rZV.fEzKy2JeIxrVHls00O",
+      "password": "$2a$10$eVnKW/Hxl4XvSBUkzCOizupfvKlne7.3yWfhdA3b9ccdVOm8X0J7i",
       "nome": "jack",
-      "secondonome": "cognome",
-      "cognome": "cognomone",
+      "secondonome": "jack",
+      "cognome": "jack",
       "voto": "si",
       "hobby": "A nessuno importa",
       "pizza": "Prosciutto Funghi Fragole",
-      "id": 3,
-      "favorites": [
-        {
-          "id": 3,
-          "title": "Forrest Gump",
-          "img": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
-          "year": 1994,
-          "plot": "The presidencies of Kennedy and Johnson, the Vietnam War, and more, seen through the eyes of an Alabama man with a low IQ.",
-          "genere": "Drama"
-        },
-        {
-          "id": 10,
-          "title": "The Lord of the Rings: The Fellowship of the Ring",
-          "img": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_.jpg",
-          "year": 2001,
-          "plot": "A meek Hobbit and his companions set out to destroy the powerful One Ring and save Middle-earth.",
-          "genere": "Fantasy"
-        },
-        {
-          "id": 14,
-          "title": "Interstellar",
-          "img": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
-          "year": 2014,
-          "plot": "A team of explorers travels through a wormhole in space in an attempt to ensure humanity's survival.",
-          "genere": "Sci-Fi"
-        },
-        {
-          "id": 3,
-          "title": "Forrest Gump",
-          "img": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
-          "year": 1994,
-          "plot": "The presidencies of Kennedy and Johnson, the Vietnam War, and more, seen through the eyes of an Alabama man with a low IQ.",
-          "genere": "Drama"
-        },
-        {
-          "id": 4,
-          "title": "Inception",
-          "img": "https://m.media-amazon.com/images/I/912AErFSBHL._AC_UF1000,1000_QL80_.jpg",
-          "year": 2010,
-          "plot": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
-          "genere": "Sci-Fi"
-        },
-        {
-          "id": 15,
-          "title": "The Green Mile",
-          "img": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_FMjpg_UX1000_.jpg",
-          "year": 1999,
-          "plot": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, who has a mysterious gift.",
-          "genere": "Drama"
-        },
-        {
-          "id": 15,
-          "title": "The Green Mile",
-          "img": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_FMjpg_UX1000_.jpg",
-          "year": 1999,
-          "plot": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, who has a mysterious gift.",
-          "genere": "Drama"
-        },
-        {
-          "id": 16,
-          "title": "The Departed",
-          "img": "https://upload.wikimedia.org/wikipedia/en/5/50/Departed234.jpg",
-          "year": 2006,
-          "plot": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in Boston.",
-          "genere": "Crime"
-        },
-        {
-          "id": 17,
-          "title": "Django Unchained",
-          "img": "https://upload.wikimedia.org/wikipedia/en/8/8b/Django_Unchained_Poster.jpg",
-          "year": 2012,
-          "plot": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation-owner in Mississippi.",
-          "genere": "Western"
-        }
-      ]
-    },
-    {
-      "email": "prova@prova.com",
-      "password": "$2a$10$Jt4vm5PGiHx.Kwctw933NOa4e4GbHWAhS255.659bVb3N7BHZ0nYW",
-      "nome": "giacomo",
-      "secondonome": "giac",
-      "cognome": "rossi",
-      "voto": "si",
-      "hobby": "A nessuno importa",
-      "pizza": "Ananas e noci",
-      "id": 4,
-      "favorites": [
-        {
-          "id": 3,
-          "title": "Forrest Gump",
-          "img": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
-          "year": 1994,
-          "plot": "The presidencies of Kennedy and Johnson, the Vietnam War, and more, seen through the eyes of an Alabama man with a low IQ.",
-          "genere": "Drama"
-        },
-        {
-          "id": 4,
-          "title": "Inception",
-          "img": "https://m.media-amazon.com/images/I/912AErFSBHL._AC_UF1000,1000_QL80_.jpg",
-          "year": 2010,
-          "plot": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
-          "genere": "Sci-Fi"
-        },
-        {
-          "id": 10,
-          "title": "The Lord of the Rings: The Fellowship of the Ring",
-          "img": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_.jpg",
-          "year": 2001,
-          "plot": "A meek Hobbit and his companions set out to destroy the powerful One Ring and save Middle-earth.",
-          "genere": "Fantasy"
-        },
-        {
-          "id": 15,
-          "title": "The Green Mile",
-          "img": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_FMjpg_UX1000_.jpg",
-          "year": 1999,
-          "plot": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, who has a mysterious gift.",
-          "genere": "Drama"
-        },
-        {
-          "id": 14,
-          "title": "Interstellar",
-          "img": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
-          "year": 2014,
-          "plot": "A team of explorers travels through a wormhole in space in an attempt to ensure humanity's survival.",
-          "genere": "Sci-Fi"
-        }
-      ]
+      "id": 3
     }
   ],
   "movies": [
