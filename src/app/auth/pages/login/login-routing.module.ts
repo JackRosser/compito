@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './login.component';
+import { GuestGuard } from '../../../guards/guest.guard';
 
-const routes: Routes = [{ path: '', component: LoginComponent, title:'Login' }];
+const routes: Routes = [{ path: '', component: LoginComponent, title:'Login', canActivate: [GuestGuard] }];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
