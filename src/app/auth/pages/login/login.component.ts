@@ -15,6 +15,7 @@ export class LoginComponent {
 
 constructor(private carloSvc:CarlocontiService, private authSvc:AuthService, private redirect:Router) {}
 
+messageOfCarlo:string = "Ciao, sono Carlo Conti, il tuo assistente personale! Per cominciare inserisci i tuoi dati di login, e se non sei già registrato registrati! Tranquillo, la sicurezza è il nostro vanto, la tua password passerà sotto 27 crittazioni e non sarà visibile da nessuno"
 
 @ViewChild('myLogin') form!:NgForm
 
@@ -38,6 +39,7 @@ ngAfterViewInit():void {
 
 submitLogin() {
   this.authSvc.login(this.form.value).subscribe(data => {
+    this.messageOfCarlo = "Qua trovi tutti i film. Le cards sono tristi e anonime perchè non c'era tempo. Per lo stesso motivo, io non sono responsive. Guarda questo sito con uno schermo grande per non farmi fare brutta figura."
     this.redirect.navigate(['/home']);
   });
 }
@@ -56,7 +58,7 @@ seriously() {
 
 }
 
-messageOfCarlo:string = "Ciao, sono Carlo Conti, il tuo assistente personale! Per cominciare inserisci i tuoi dati di login, e se non sei già registrato registrati! Tranquillo, la sicurezza è il nostro vanto, la tua password passerà sotto 27 crittazioni e non sarà visibile da nessuno"
+
 
 nextMessage():void {
   this.messageOfCarlo = "Non sei ancora registrato? Vergognati. Compila subito i dati"

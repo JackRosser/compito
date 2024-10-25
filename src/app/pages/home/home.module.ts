@@ -7,6 +7,8 @@ import { HomeComponent } from './home.component';
 import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { CarlocontiComponent } from '../../shared/carloconti/carloconti.component';
+import { SharedModule } from '../../shared/shared.module';
 
 
 @NgModule({
@@ -17,7 +19,8 @@ import {MatCardModule} from '@angular/material/card';
     CommonModule,
     HomeRoutingModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    SharedModule
   ]
 })
 export class HomeModule { }

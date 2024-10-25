@@ -1,274 +1,275 @@
 {
   "users": [
-    {
-      "email": "mail@mail.com",
-      "password": "$2a$10$37W1JmUJBUZjxvkP7.deAeF4CmUB2p6BfsmxX2.m.VJVnSv.WGvga",
-      "nome": "Jack",
-      "secondonome": "Ross",
-      "cognome": "Vattelapesca",
-      "voto": "10",
-      "hobby": "a nessuno importa",
-      "pizza": "qualunque",
-      "id": 0
-    },
-    {
+ {
       "email": "admin@admin.com",
-      "password": "$2a$10$nlUFvveN8IWYFiqcOFDMV.ujdGDuNmfbwdhwYtYRfX8FcCSz.O9sO",
+      "password": "$2a$10$ibMwAHdyZMcoqcsGVhBBrudFbj3SG2KB84FVvajfMX.sXIfXaMvea",
       "nome": "admin",
       "secondonome": "admin2",
       "cognome": "admincognome",
       "voto": "si",
       "hobby": "A nessuno importa",
       "pizza": "Prosciutto Funghi Fragole",
-      "id": 1
+      "id": 1,
+      "favorites": [
+        {
+          "id": 3,
+          "title": "Forrest Gump",
+          "img": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
+          "year": 1994,
+          "plot": "The presidencies of Kennedy and Johnson, the Vietnam War, and more, seen through the eyes of an Alabama man with a low IQ.",
+          "genere": "Drama"
+        },
+        {
+          "id": 11,
+          "title": "The Silence of the Lambs",
+          "img": "https://upload.wikimedia.org/wikipedia/en/8/86/The_Silence_of_the_Lambs_poster.jpg",
+          "year": 1991,
+          "plot": "A young FBI agent seeks the help of a manipulative cannibal killer to catch another serial killer.",
+          "genere": "Thriller"
+        }
+      ]
     }
   ],
-  "movies-popular": [],
-  "favorites": [],
-"movies": [
-      {
-        "id": 0,
-        "title": "The Shawshank Redemption",
-        "img": "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",
-        "year": 1994,
-        "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-        "genere": "Drama"
-      },
-      {
-        "id": 1,
-        "title": "The Godfather",
-        "img": "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",
-        "year": 1972,
-        "plot": "The aging patriarch of an organized crime dynasty transfers control of his empire to his reluctant son.",
-        "genere": "Crime"
-      },
-      {
-        "id": 2,
-        "title": "The Dark Knight",
-        "img": "https://m.media-amazon.com/images/S/pv-target-images/e9a43e647b2ca70e75a3c0af046c4dfdcd712380889779cbdc2c57d94ab63902.jpg",
-        "year": 2008,
-        "plot": "When the menace known as the Joker emerges, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-        "genere": "Action"
-      },
-      {
-        "id": 3,
-        "title": "Forrest Gump",
-        "img": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
-        "year": 1994,
-        "plot": "The presidencies of Kennedy and Johnson, the Vietnam War, and more, seen through the eyes of an Alabama man with a low IQ.",
-        "genere": "Drama"
-      },
-      {
-        "id": 4,
-        "title": "Inception",
-        "img": "https://m.media-amazon.com/images/I/912AErFSBHL._AC_UF1000,1000_QL80_.jpg",
-        "year": 2010,
-        "plot": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
-        "genere": "Sci-Fi"
-      },
-      {
-        "id": 5,
-        "title": "Fight Club",
-        "img": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg",
-        "year": 1999,
-        "plot": "An insomniac office worker and a soap maker form an underground fight club that evolves into something much bigger.",
-        "genere": "Drama"
-      },
-      {
-        "id": 6,
-        "title": "Pulp Fiction",
-        "img": "https://mr.comingsoon.it/imgdb/locandine/big/1182.jpg",
-        "year": 1994,
-        "plot": "The lives of two mob hitmen, a boxer, a gangster, and his wife intertwine in four tales of violence and redemption.",
-        "genere": "Crime"
-      },
-      {
-        "id": 7,
-        "title": "The Matrix",
-        "img": "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg",
-        "year": 1999,
-        "plot": "A computer hacker learns about the true nature of his reality and his role in the war against its controllers.",
-        "genere": "Sci-Fi"
-      },
-      {
-        "id": 8,
-        "title": "Gladiator",
-        "img": "https://upload.wikimedia.org/wikipedia/en/f/fb/Gladiator_%282000_film_poster%29.png",
-        "year": 2000,
-        "plot": "A former Roman general sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
-        "genere": "Action"
-      },
-      {
-        "id": 9,
-        "title": "Schindler's List",
-        "img": "https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg",
-        "year": 1993,
-        "plot": "In German-occupied Poland during WWII, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce.",
-        "genere": "Drama"
-      },
-      {
-        "id": 10,
-        "title": "The Lord of the Rings: The Fellowship of the Ring",
-        "img": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_.jpg",
-        "year": 2001,
-        "plot": "A meek Hobbit and his companions set out to destroy the powerful One Ring and save Middle-earth.",
-        "genere": "Fantasy"
-      },
-      {
-        "id": 11,
-        "title": "The Silence of the Lambs",
-        "img": "https://upload.wikimedia.org/wikipedia/en/8/86/The_Silence_of_the_Lambs_poster.jpg",
-        "year": 1991,
-        "plot": "A young FBI agent seeks the help of a manipulative cannibal killer to catch another serial killer.",
-        "genere": "Thriller"
-      },
-      {
-        "id": 12,
-        "title": "Saving Private Ryan",
-        "img": "https://upload.wikimedia.org/wikipedia/en/a/ac/Saving_Private_Ryan_poster.jpg",
-        "year": 1998,
-        "plot": "Following the Normandy Landings, a group of soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed.",
-        "genere": "War"
-      },
-      {
-        "id": 13,
-        "title": "Se7en",
-        "img": "https://upload.wikimedia.org/wikipedia/en/6/68/Seven_%28movie%29_poster.jpg",
-        "year": 1995,
-        "plot": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
-        "genere": "Thriller"
-      },
-      {
-        "id": 14,
-        "title": "Interstellar",
-        "img": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
-        "year": 2014,
-        "plot": "A team of explorers travels through a wormhole in space in an attempt to ensure humanity's survival.",
-        "genere": "Sci-Fi"
-      },
-      {
-        "id": 15,
-        "title": "The Green Mile",
-        "img": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_FMjpg_UX1000_.jpg",
-        "year": 1999,
-        "plot": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, who has a mysterious gift.",
-        "genere": "Drama"
-      },
-      {
-        "id": 16,
-        "title": "The Departed",
-        "img": "https://upload.wikimedia.org/wikipedia/en/5/50/Departed234.jpg",
-        "year": 2006,
-        "plot": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in Boston.",
-        "genere": "Crime"
-      },
-      {
-        "id": 17,
-        "title": "Django Unchained",
-        "img": "https://upload.wikimedia.org/wikipedia/en/8/8b/Django_Unchained_Poster.jpg",
-        "year": 2012,
-        "plot": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation-owner in Mississippi.",
-        "genere": "Western"
-      },
-      {
-        "id": 18,
-        "title": "Inglourious Basterds",
-        "img": "https://upload.wikimedia.org/wikipedia/en/c/c3/Inglourious_Basterds_poster.jpg",
-        "year": 2009,
-        "plot": "In Nazi-occupied France, a group of Jewish soldiers plan to assassinate Nazi leaders.",
-        "genere": "War"
-      },
-      {
-        "id": 19,
-        "title": "The Wolf of Wall Street",
-        "img": "https://m.media-amazon.com/images/I/91m2MB2lYFL.jpg",
-        "year": 2013,
-        "plot": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker to his fall involving crime and corruption.",
-        "genere": "Biography"
-      },
-      {
-        "id": 20,
-        "title": "Whiplash",
-        "img": "https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg",
-        "year": 2014,
-        "plot": "A promising young drummer enrolls at a music conservatory where he is mentored by a ruthless instructor.",
-        "genere": "Drama"
-      },
-      {
-        "id": 21,
-        "title": "Goodfellas",
-        "img": "https://upload.wikimedia.org/wikipedia/en/7/7b/Goodfellas.jpg",
-        "year": 1990,
-        "plot": "The story of Henry Hill and his life in the mob, covering his relationship with his wife and his involvement with the mob's violent partners.",
-        "genere": "Crime"
-      },
-      {
-        "id": 22,
-        "title": "The Truman Show",
-        "img": "https://m.media-amazon.com/images/I/71zEnyA+49L._AC_UF1000,1000_QL80_.jpg",
-        "year": 1998,
-        "plot": "An insurance salesman discovers his entire life is actually a reality TV show.",
-        "genere": "Drama"
-      },
-      {
-        "id": 23,
-        "title": "The Prestige",
-        "img": "https://upload.wikimedia.org/wikipedia/en/d/d2/Prestige_poster.jpg",
-        "year": 2006,
-        "plot": "Two stage magicians engage in competitive one-upmanship in an attempt to create the ultimate stage illusion.",
-        "genere": "Mystery"
-      },
-      {
-        "id": 24,
-        "title": "American Beauty",
-        "img": "https://m.media-amazon.com/images/S/pv-target-images/794903099bd005652bd41e51cdd76466629710fa167393747d231c863bccb6fb.jpg",
-        "year": 1999,
-        "plot": "A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter's best friend.",
-        "genere": "Drama"
-      },
-      {
-        "id": 25,
-        "title": "Shutter Island",
-        "img": "https://upload.wikimedia.org/wikipedia/en/7/76/Shutterislandposter.jpg",
-        "year": 2010,
-        "plot": "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane.",
-        "genere": "Thriller"
-      },
-      {
-        "id": 26,
-        "title": "The Sixth Sense",
-        "img": "https://m.media-amazon.com/images/I/61gMflrdLKL._AC_UF1000,1000_QL80_.jpg",
-        "year": 1999,
-        "plot": "A boy who communicates with spirits seeks the help of a disheartened child psychologist.",
-        "genere": "Horror"
-      },
-      {
-        "id": 27,
-        "title": "Memento",
-        "img": "https://upload.wikimedia.org/wikipedia/en/c/c7/Memento_poster.jpg",
-        "year": 2000,
-        "plot": "A man with short-term memory loss attempts to track down his wife's murderer.",
-        "genere": "Mystery"
-      },
-      {
-        "id": 28,
-        "title": "Braveheart",
-        "img": "https://m.media-amazon.com/images/S/pv-target-images/d81d2b8a9916c706534940ade774e5f2a84ab4d38c1dcc6d275c717986fba698.png",
-        "year": 1995,
-        "plot": "Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from tyranny.",
-        "genere": "History"
-      },
-      {
-        "id": 29,
-        "title": "The Usual Suspects",
-        "img": "https://upload.wikimedia.org/wikipedia/en/9/9c/Usual_suspects_ver1.jpg",
-        "year": 1995,
-        "plot": "A sole survivor tells the twisted events leading up to a horrific gun battle on a boat.",
-        "genere": "Crime"
-      }
-    ]
-  }
-
-
-
-
+  "movies": [
+    {
+      "id": 0,
+      "title": "The Shawshank Redemption",
+      "img": "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",
+      "year": 1994,
+      "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "genere": "Drama"
+    },
+    {
+      "id": 1,
+      "title": "The Godfather",
+      "img": "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",
+      "year": 1972,
+      "plot": "The aging patriarch of an organized crime dynasty transfers control of his empire to his reluctant son.",
+      "genere": "Crime"
+    },
+    {
+      "id": 2,
+      "title": "The Dark Knight",
+      "img": "https://m.media-amazon.com/images/S/pv-target-images/e9a43e647b2ca70e75a3c0af046c4dfdcd712380889779cbdc2c57d94ab63902.jpg",
+      "year": 2008,
+      "plot": "When the menace known as the Joker emerges, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "genere": "Action"
+    },
+    {
+      "id": 3,
+      "title": "Forrest Gump",
+      "img": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
+      "year": 1994,
+      "plot": "The presidencies of Kennedy and Johnson, the Vietnam War, and more, seen through the eyes of an Alabama man with a low IQ.",
+      "genere": "Drama"
+    },
+    {
+      "id": 4,
+      "title": "Inception",
+      "img": "https://m.media-amazon.com/images/I/912AErFSBHL._AC_UF1000,1000_QL80_.jpg",
+      "year": 2010,
+      "plot": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+      "genere": "Sci-Fi"
+    },
+    {
+      "id": 5,
+      "title": "Fight Club",
+      "img": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg",
+      "year": 1999,
+      "plot": "An insomniac office worker and a soap maker form an underground fight club that evolves into something much bigger.",
+      "genere": "Drama"
+    },
+    {
+      "id": 6,
+      "title": "Pulp Fiction",
+      "img": "https://mr.comingsoon.it/imgdb/locandine/big/1182.jpg",
+      "year": 1994,
+      "plot": "The lives of two mob hitmen, a boxer, a gangster, and his wife intertwine in four tales of violence and redemption.",
+      "genere": "Crime"
+    },
+    {
+      "id": 7,
+      "title": "The Matrix",
+      "img": "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg",
+      "year": 1999,
+      "plot": "A computer hacker learns about the true nature of his reality and his role in the war against its controllers.",
+      "genere": "Sci-Fi"
+    },
+    {
+      "id": 8,
+      "title": "Gladiator",
+      "img": "https://upload.wikimedia.org/wikipedia/en/f/fb/Gladiator_%282000_film_poster%29.png",
+      "year": 2000,
+      "plot": "A former Roman general sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+      "genere": "Action"
+    },
+    {
+      "id": 9,
+      "title": "Schindler's List",
+      "img": "https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg",
+      "year": 1993,
+      "plot": "In German-occupied Poland during WWII, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce.",
+      "genere": "Drama"
+    },
+    {
+      "id": 10,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "img": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_.jpg",
+      "year": 2001,
+      "plot": "A meek Hobbit and his companions set out to destroy the powerful One Ring and save Middle-earth.",
+      "genere": "Fantasy"
+    },
+    {
+      "id": 11,
+      "title": "The Silence of the Lambs",
+      "img": "https://upload.wikimedia.org/wikipedia/en/8/86/The_Silence_of_the_Lambs_poster.jpg",
+      "year": 1991,
+      "plot": "A young FBI agent seeks the help of a manipulative cannibal killer to catch another serial killer.",
+      "genere": "Thriller"
+    },
+    {
+      "id": 12,
+      "title": "Saving Private Ryan",
+      "img": "https://upload.wikimedia.org/wikipedia/en/a/ac/Saving_Private_Ryan_poster.jpg",
+      "year": 1998,
+      "plot": "Following the Normandy Landings, a group of soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed.",
+      "genere": "War"
+    },
+    {
+      "id": 13,
+      "title": "Se7en",
+      "img": "https://upload.wikimedia.org/wikipedia/en/6/68/Seven_%28movie%29_poster.jpg",
+      "year": 1995,
+      "plot": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+      "genere": "Thriller"
+    },
+    {
+      "id": 14,
+      "title": "Interstellar",
+      "img": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
+      "year": 2014,
+      "plot": "A team of explorers travels through a wormhole in space in an attempt to ensure humanity's survival.",
+      "genere": "Sci-Fi"
+    },
+    {
+      "id": 15,
+      "title": "The Green Mile",
+      "img": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_FMjpg_UX1000_.jpg",
+      "year": 1999,
+      "plot": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, who has a mysterious gift.",
+      "genere": "Drama"
+    },
+    {
+      "id": 16,
+      "title": "The Departed",
+      "img": "https://upload.wikimedia.org/wikipedia/en/5/50/Departed234.jpg",
+      "year": 2006,
+      "plot": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in Boston.",
+      "genere": "Crime"
+    },
+    {
+      "id": 17,
+      "title": "Django Unchained",
+      "img": "https://upload.wikimedia.org/wikipedia/en/8/8b/Django_Unchained_Poster.jpg",
+      "year": 2012,
+      "plot": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation-owner in Mississippi.",
+      "genere": "Western"
+    },
+    {
+      "id": 18,
+      "title": "Inglourious Basterds",
+      "img": "https://upload.wikimedia.org/wikipedia/en/c/c3/Inglourious_Basterds_poster.jpg",
+      "year": 2009,
+      "plot": "In Nazi-occupied France, a group of Jewish soldiers plan to assassinate Nazi leaders.",
+      "genere": "War"
+    },
+    {
+      "id": 19,
+      "title": "The Wolf of Wall Street",
+      "img": "https://m.media-amazon.com/images/I/91m2MB2lYFL.jpg",
+      "year": 2013,
+      "plot": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker to his fall involving crime and corruption.",
+      "genere": "Biography"
+    },
+    {
+      "id": 20,
+      "title": "Whiplash",
+      "img": "https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg",
+      "year": 2014,
+      "plot": "A promising young drummer enrolls at a music conservatory where he is mentored by a ruthless instructor.",
+      "genere": "Drama"
+    },
+    {
+      "id": 21,
+      "title": "Goodfellas",
+      "img": "https://upload.wikimedia.org/wikipedia/en/7/7b/Goodfellas.jpg",
+      "year": 1990,
+      "plot": "The story of Henry Hill and his life in the mob, covering his relationship with his wife and his involvement with the mob's violent partners.",
+      "genere": "Crime"
+    },
+    {
+      "id": 22,
+      "title": "The Truman Show",
+      "img": "https://m.media-amazon.com/images/I/71zEnyA+49L._AC_UF1000,1000_QL80_.jpg",
+      "year": 1998,
+      "plot": "An insurance salesman discovers his entire life is actually a reality TV show.",
+      "genere": "Drama"
+    },
+    {
+      "id": 23,
+      "title": "The Prestige",
+      "img": "https://upload.wikimedia.org/wikipedia/en/d/d2/Prestige_poster.jpg",
+      "year": 2006,
+      "plot": "Two stage magicians engage in competitive one-upmanship in an attempt to create the ultimate stage illusion.",
+      "genere": "Mystery"
+    },
+    {
+      "id": 24,
+      "title": "American Beauty",
+      "img": "https://m.media-amazon.com/images/S/pv-target-images/794903099bd005652bd41e51cdd76466629710fa167393747d231c863bccb6fb.jpg",
+      "year": 1999,
+      "plot": "A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter's best friend.",
+      "genere": "Drama"
+    },
+    {
+      "id": 25,
+      "title": "Shutter Island",
+      "img": "https://upload.wikimedia.org/wikipedia/en/7/76/Shutterislandposter.jpg",
+      "year": 2010,
+      "plot": "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane.",
+      "genere": "Thriller"
+    },
+    {
+      "id": 26,
+      "title": "The Sixth Sense",
+      "img": "https://m.media-amazon.com/images/I/61gMflrdLKL._AC_UF1000,1000_QL80_.jpg",
+      "year": 1999,
+      "plot": "A boy who communicates with spirits seeks the help of a disheartened child psychologist.",
+      "genere": "Horror"
+    },
+    {
+      "id": 27,
+      "title": "Memento",
+      "img": "https://upload.wikimedia.org/wikipedia/en/c/c7/Memento_poster.jpg",
+      "year": 2000,
+      "plot": "A man with short-term memory loss attempts to track down his wife's murderer.",
+      "genere": "Mystery"
+    },
+    {
+      "id": 28,
+      "title": "Braveheart",
+      "img": "https://m.media-amazon.com/images/S/pv-target-images/d81d2b8a9916c706534940ade774e5f2a84ab4d38c1dcc6d275c717986fba698.png",
+      "year": 1995,
+      "plot": "Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from tyranny.",
+      "genere": "History"
+    },
+    {
+      "id": 29,
+      "title": "The Usual Suspects",
+      "img": "https://upload.wikimedia.org/wikipedia/en/9/9c/Usual_suspects_ver1.jpg",
+      "year": 1995,
+      "plot": "A sole survivor tells the twisted events leading up to a horrific gun battle on a boat.",
+      "genere": "Crime"
+    }
+  ]
+}
