@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { CarlocontiService } from '../../services/carloconti.service';
 import { iUser } from '../../models/i-user';
+import { iMovie } from '../../models/i-movie';
+import { iAccess } from '../../models/i-access';
+import { UserService } from '../../services/user.service';
 
 @Component({
   selector: 'app-navbar',
@@ -9,33 +12,45 @@ import { iUser } from '../../models/i-user';
 })
 export class NavbarComponent {
 
-constructor(private carloSvc:CarlocontiService) {}
+  constructor(private carloSvc: CarlocontiService, private userSvc: UserService) {}
+
+  userId!: number;
+  favorite!: iMovie[];
+  badge!: number;
+  messageOfCarlo!: string;
+  user!: string;
+  favoriteList!: iUser[];
+
+  navOver() {
+    this.messageOfCarlo = "Ti vedo che stai andando a vedere se il mio creatore ha fatto tutte le funzionalità richieste, e vergognati per averne dubitato";
+    this.carloSvc.messageFromCarlo(this.messageOfCarlo);
+  }
+
+  navLeave() {
+    this.messageOfCarlo = "E adesso sei uscito per vedere se succedeva qualcosa";
+    this.carloSvc.messageFromCarlo(this.messageOfCarlo);
+  }
+
+  capitalize(word: string): string {
+    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+  }
+
+  ngOnInit() {
+
+    const userObj: iAccess = JSON.parse(localStorage.getItem("accessData") || '{}');
+    this.user = this.capitalize(userObj.user?.nome || '');
+
+    this.userId = userObj.user?.id;
 
 
-messageOfCarlo!:string
+    this.userSvc.user$.subscribe(list => {
+      this.favoriteList = list;
 
-user!: string
-
-navOver() {
-  this.messageOfCarlo = "Ti vedo che stai andando a vedere se il mio creatore ha fatto tutte le funzionalità richieste, e vergognati per averne dubitato"
-  this.carloSvc.messageFromCarlo(this.messageOfCarlo)
-}
-
-navLeave() {
-  this.messageOfCarlo = "E adesso sei uscito per vedere se succedeva qualcosa"
-  this.carloSvc.messageFromCarlo(this.messageOfCarlo)
-}
-
-capitalize(word: string): string {
-  return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
-}
-
-ngOnInit() {
-
-  let userObj = this.user = JSON.parse(localStorage.getItem("accessData") || '{}');
-this.user = userObj.user.nome
-
-}
-
-
+      const currentUser = this.favoriteList.find(user => user.id === this.userId);
+      if (currentUser) {
+        this.favorite = currentUser.favorites;
+        this.badge = this.favorite.length
+      }
+    });
+  }
 }

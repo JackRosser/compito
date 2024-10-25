@@ -14,4 +14,7 @@
       >{{ capitalize(user) }}</a
     >
   </span>
+  <div *ngIf="badge" class="absolute z-50 bg-red-600 p-1 rounded top-2 right-5">
+    {{ badge }}
+  </div>
 </nav>
