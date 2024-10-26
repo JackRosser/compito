@@ -45,25 +45,24 @@ timer:any
 
 // FUNZIONE PER IL LOGIN FACCIO UNA RICHIESTA DI TIPO "POST" E RICEVO IL TOKEN
 // POI SETTO I DATI NEL LOCALSTORAGE PER RIMANERE LOGGATO
-  login(authData:iLogin){
-    return this.http.post<iAccess>(this.urlForLogin, authData)
-    .pipe(tap( accessData => {
+login(authData: iLogin) {
+  return this.http.post<iAccess>(this.urlForLogin, authData).pipe(
+    tap(accessData => {
+      if (accessData.user && Array.isArray(accessData.user.favorites)) {
+        accessData.user.favorites = accessData.user.favorites.filter(film =>
+          film && typeof film.id === 'number' && typeof film.title === 'string'
+        );
+      }
+      this.authBh.next(accessData);
+      localStorage.setItem('accessData', JSON.stringify(accessData));
 
-      this.authBh.next(accessData)
-      localStorage.setItem('accessData',JSON.stringify(accessData))
+      let expDate = this.jwtHelper.getTokenExpirationDate(accessData.token);
+      if (!expDate) return;
+      this.autoLogout(expDate);
+    })
+  );
+}
 
-      // QUI USO IL METODO getTokenExpirationDate() DA JwtHelperService
-      // PER OTTENERE LA DATA DI SCADENZA DEL TOKEN.
-      // QUESTO METODO RESTITUISCE UN OGGETTO DI TIPO "DATE" CHE RAPPRESENTA IL MOMENTO IN CUI IL TOKEN SCADRA'
-      // EXPDATE SARA' NULL O UNDEFINED SE LA DATA NON E' VALIDA
-
-      let expDate = this.jwtHelper.getTokenExpirationDate(accessData.token)
-      if(!expDate) return
-
-      this.autoLogout(expDate)
-
-    }))
-  }
 
 // SPARO UN NULL AL BHSUBJECT PRINCIPALE
 // DISTRUGGO TUTTO IL LOCALSTORAGE
@@ -90,12 +89,24 @@ timer:any
     const userJson: string | null = localStorage.getItem('accessData');
 
     if (userJson) {
-      const accessData: iAccess = JSON.parse(userJson);
-      this.authBh.next(accessData);
+      try {
+        const accessData: iAccess = JSON.parse(userJson);
+        if (accessData.user && Array.isArray(accessData.user.favorites)) {
+          accessData.user.favorites = accessData.user.favorites.filter(film =>
+            film && typeof film.id === 'number' && typeof film.title === 'string'
+          );
+          this.authBh.next(accessData);
+        } else {
+          this.logout();
+        }
+      } catch (error) {
+        this.logout();
+      }
     } else {
       this.logout();
     }
   }
+
 
 
 

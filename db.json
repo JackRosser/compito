@@ -46,16 +46,19 @@
       "voto": "si",
       "hobby": "A nessuno importa",
       "pizza": "Prosciutto Funghi Fragole",
-      "id": 2,
+      "id": 2
+    },
+    {
+      "email": "jack@jack.com",
+      "password": "$2a$10$ZCoUwHHtAy2yDFLzWbRPZOiB0FEHm8DxRL16G7B9RoBKWG1XWfVPS",
+      "nome": "jack",
+      "secondonome": "jack",
+      "cognome": "jack",
+      "voto": "si",
+      "hobby": "A nessuno importa",
+      "pizza": "Prosciutto Funghi Fragole",
+      "id": 3,
       "favorites": [
-        {
-          "id": 3,
-          "title": "Forrest Gump",
-          "img": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
-          "year": 1994,
-          "plot": "The presidencies of Kennedy and Johnson, the Vietnam War, and more, seen through the eyes of an Alabama man with a low IQ.",
-          "genere": "Drama"
-        },
         {
           "id": 4,
           "title": "Inception",
@@ -73,6 +76,59 @@
           "genere": "Drama"
         },
         {
+          "id": 2,
+          "title": "The Dark Knight",
+          "img": "https://m.media-amazon.com/images/S/pv-target-images/e9a43e647b2ca70e75a3c0af046c4dfdcd712380889779cbdc2c57d94ab63902.jpg",
+          "year": 2008,
+          "plot": "When the menace known as the Joker emerges, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+          "genere": "Action"
+        },
+        {
+          "id": 1,
+          "title": "The Godfather",
+          "img": "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",
+          "year": 1972,
+          "plot": "The aging patriarch of an organized crime dynasty transfers control of his empire to his reluctant son.",
+          "genere": "Crime"
+        }
+      ]
+    },
+    {
+      "email": "user@user.com",
+      "password": "$2a$10$Fq2nfzuCN6GT0ta1IDaKFePE70zYtHkwiAKU7Xdf3yZoOMmDHlUmy",
+      "nome": "user",
+      "secondonome": "user",
+      "cognome": "user",
+      "voto": "si",
+      "hobby": "A nessuno importa",
+      "pizza": "Prosciutto Funghi Fragole",
+      "id": 4,
+      "favorites": [
+        {
+          "id": 4,
+          "title": "Inception",
+          "img": "https://m.media-amazon.com/images/I/912AErFSBHL._AC_UF1000,1000_QL80_.jpg",
+          "year": 2010,
+          "plot": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+          "genere": "Sci-Fi"
+        },
+        {
+          "id": 5,
+          "title": "Fight Club",
+          "img": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg",
+          "year": 1999,
+          "plot": "An insomniac office worker and a soap maker form an underground fight club that evolves into something much bigger.",
+          "genere": "Drama"
+        },
+        {
+          "id": 10,
+          "title": "The Lord of the Rings: The Fellowship of the Ring",
+          "img": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_.jpg",
+          "year": 2001,
+          "plot": "A meek Hobbit and his companions set out to destroy the powerful One Ring and save Middle-earth.",
+          "genere": "Fantasy"
+        },
+        {
           "id": 9,
           "title": "Schindler's List",
           "img": "https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg",
@@ -81,25 +137,14 @@
           "genere": "Drama"
         },
         {
-          "id": 8,
-          "title": "Gladiator",
-          "img": "https://upload.wikimedia.org/wikipedia/en/f/fb/Gladiator_%282000_film_poster%29.png",
-          "year": 2000,
-          "plot": "A former Roman general sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
-          "genere": "Action"
+          "id": 15,
+          "title": "The Green Mile",
+          "img": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_FMjpg_UX1000_.jpg",
+          "year": 1999,
+          "plot": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, who has a mysterious gift.",
+          "genere": "Drama"
         }
       ]
-    },
-    {
-      "email": "jack@jack.com",
-      "password": "$2a$10$eVnKW/Hxl4XvSBUkzCOizupfvKlne7.3yWfhdA3b9ccdVOm8X0J7i",
-      "nome": "jack",
-      "secondonome": "jack",
-      "cognome": "jack",
-      "voto": "si",
-      "hobby": "A nessuno importa",
-      "pizza": "Prosciutto Funghi Fragole",
-      "id": 3
     }
   ],
   "movies": [
